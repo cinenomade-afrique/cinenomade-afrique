@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+.my-test-text {
+    font-size: 4rem;
+
+    .testa {
+        color: #ddeeaa;
+    }
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
