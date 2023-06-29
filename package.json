@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "cinenomade-afrique-app",
   "private": true,
   "scripts": {
     "build": "nuxt build",
@@ -11,6 +11,12 @@
   "devDependencies": {
     "@nuxt/devtools": "latest",
     "@types/node": "^18",
-    "nuxt": "^3.6.1"
+    "autoprefixer": "^10.4.14",
+    "nuxt": "^3.6.1",
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.3.2"
+  },
+  "dependencies": {
+    "sass": "^1.63.6"
   }
 }
