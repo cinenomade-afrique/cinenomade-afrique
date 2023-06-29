@@ -1,19 +1,23 @@
-# Logs and databases #
-######################
+# Nuxt dev/build outputs
+.output
+.nuxt
+.nitro
+.cache
+dist
+
+# Node dependencies
+node_modules
+
+# Logs
+logs
 *.log
-*.sql
-*.sqlite
 
-# OS generated files #
-######################
+# Misc
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
+.fleet
+.idea
 
-# Dependencies #
-######################
-/node_modules
+# Local env files
+.env
+.env.*
+!.env.example
