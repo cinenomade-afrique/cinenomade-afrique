@@ -1,3 +1,5 @@
 <template>
-    <div>Index Page</div>
+    <div>
+        Home page
+    </div>
 </template>
