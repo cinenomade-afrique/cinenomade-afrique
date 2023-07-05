@@ -1,0 +1,20 @@
+@import "mixins.scss";
+
+// Ciné Nomade Colors
+$orange-cna: #ff902e;
+$green-cna: #3f974e;
+$red-cna: #f14b1d;
+$black-cna: black;
+
+// Responsive breakpoint
+$responsive: true;
+$mobile: 640px;
+$tablet: 768px;
+$tablet-desktop: 1024px;
+$desktop: 1280px;
+$desktop-wide: 1536px;
+
+// Responsive max breakpoint
+$mobile-end: $tablet - 1px;
+$tablet-end: $tablet-desktop - 1px;
+$desktop-end: $desktop-wide - 1px;
