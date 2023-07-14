@@ -1,137 +1,215 @@
-<script setup>
+<script>
+    export default {
+        mounted() {
+            const menuResponsive = () => {
+                const hamburger = {
+                    menu: document.querySelector('.var--header-menu'),
+                    expanded: document.querySelector('.var--header-menu-toggle'),
 
+                    toggleMenuExpanded:  (e) => {
+                        e.preventDefault();
+                        hamburger.expanded.classList.toggle("var--header-menu-open");
+                    },
+
+                    toggleMenu:  (e) => {
+                        e.preventDefault();
+                        hamburger.menu.classList.toggle("active");
+                    }
+                }
+
+                hamburger.expanded.addEventListener("click", (e) => { hamburger.toggleMenuExpanded(e) });
+                hamburger.expanded.addEventListener("click", (e) => { hamburger.toggleMenu(e) });
+            }
+            menuResponsive();
+        }
+    }
 </script>
 
 <template>
     <header class="mt-6">
         <div class="flex justify-between container mx-auto px-4">
-            <NuxtLink to="/">
+            <NuxtLink to="/" class="z-10">
                 <img class="w-16" src="@/assets/images/logo/Logo_CNA_couleur.png" alt="CineNomadeAfrique">
             </NuxtLink>
-            <div class="lg:flex lg:flex-col lg:justify-center var--header-content">
-                <div class="absolute w-full opacity-0 duration-300 top-32 left-0 bg-black invisible var--header-navbar-bg"></div>
-                <button class="relative flex flex-col justify-center z-10 border-0 rounded-none var--header-menu-button" type="button">
-                    <span class="block bg-black w-full duration-300 var--icon-bar"></span>
-                    <span class="block bg-black w-full duration-300 var--icon-bar"></span>
-                    <span class="block bg-black w-full duration-300 var--icon-bar"></span>
-                </button>
-                <nav class="var--header-navbar">
-                    <ul class="inline-block">
-                        <li class="lg:inline-block">
-                            <NuxtLink class="lg:py-2.5 lg:px-5" to="/">Accueil</NuxtLink>
-                        </li>
-                        <li class="lg:inline-block">
-                            <NuxtLink class="lg:py-2.5 lg:px-5" to="/nos-actions">Nos actions</NuxtLink>
-                        </li>
-                        <li class="lg:inline-block">
-                            <NuxtLink class="lg:py-2.5 lg:px-5" to="/festival">Le Festival</NuxtLink>
-                        </li>
-                        <li class="lg:inline-block">
-                            <NuxtLink class="lg:py-2.5 lg:px-5" to="/teams">L'équipe</NuxtLink>
-                        </li>
-                        <li class="lg:inline-block">
-                            <NuxtLink class="lg:py-2.5 lg:px-5" to="/media">Médias</NuxtLink>
-                        </li>
-                        <li class="lg:inline-block">
-                            <NuxtLink class="lg:py-2.5 lg:px-5" to="/nos-partenaires">Nos partenaires</NuxtLink>
-                        </li>
-                        <li class="lg:inline-block">
-                            <NuxtLink class="lg:py-2.5 lg:px-5" to="/contact">Contact</NuxtLink>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
+            <nav class="lg:flex lg:flex-col lg:justify-center var--header-navbar" role="navigation">
+                <div class="absolute top-6 right-6 w-8 h-5 cursor-pointer rounded-full var--header-menu-toggle"><span class="block h-1 overflow-hidden toggle-bar"></span></div>
+                <ul class="menu inline-block var--header-menu">
+                    <li class="lg:inline-block">
+                        <NuxtLink class="lg:py-2.5 lg:px-5" to="/"><span>Accueil</span></NuxtLink>
+                    </li>
+                    <li class="lg:inline-block">
+                        <NuxtLink class="lg:py-2.5 lg:px-5" to="/nos-actions"><span>Nos actions</span></NuxtLink>
+                    </li>
+                    <li class="lg:inline-block">
+                        <NuxtLink class="lg:py-2.5 lg:px-5" to="/festival"><span>Le Festival</span></NuxtLink>
+                    </li>
+                    <li class="lg:inline-block">
+                        <NuxtLink class="lg:py-2.5 lg:px-5" to="/teams"><span>L'équipe</span></NuxtLink>
+                    </li>
+                    <li class="lg:inline-block">
+                        <NuxtLink class="lg:py-2.5 lg:px-5" to="/media"><span>Médias</span></NuxtLink>
+                    </li>
+                    <li class="lg:inline-block">
+                        <NuxtLink class="lg:py-2.5 lg:px-5" to="/nos-partenaires"><span>Nos partenaires</span></NuxtLink>
+                    </li>
+                    <li class="lg:inline-block">
+                        <NuxtLink class="lg:py-2.5 lg:px-5" to="/contact"><span>Contact</span></NuxtLink>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </header>
 </template>
 
 <style lang="scss" scoped>
-    .var--header-content {
-        @include mediaQuery(tablet-end) {
-            pointer-events: none;
+    .var--header-menu-toggle {
+        z-index: 2;
+        padding: 8px 0;
 
-            .var--header-navbar-bg {
-                height: calc(100% - 70px);
+        .toggle-bar {
+            background: $orange-cna;
+            border-radius: 2px;
+            transition: background 0.3s ease-in-out;
+        }
+
+        &::before,
+        &::after {
+            left: 0;
+            content: '';
+            width: 32px;
+            height: 4px;
+            background: $orange-cna;
+            border-radius: 2px;
+            position: absolute;
+            transform-origin: center center;
+            transition: width 0.2s ease-in-out, background 0.2s ease-in-out, transform 0.2s ease-in-out, top 0.2s ease-in-out, bottom 0.2s ease-in-out, left 0.2s ease-in-out, right 0.2s ease-in-out;
+        }
+
+        &::before { top: 0; }
+        &::after { bottom: 0; }
+        &.var--header-menu-open {
+            .toggle-bar { background: rgba(255,255,255,0); }
+
+            &::before {
+                top: 8px;
+                transform: rotate(-45deg);
             }
 
-            &:focus-within .var--header-navbar-bg {
-                visibility: visible;
-                opacity: .6;
+            &::after {
+                bottom: 8px;
+                transform: rotate(45deg);
             }
 
-            * {
-                visibility: visible;
+            &::before, &::after {
+                width: 26px;
+                background: #fff;
             }
 
-            .var--icon-bar + .var--icon-bar {
-                margin-top: 5px;
-            }
+            &:hover,
+            &:focus,
+            &:active {
+                .toggle-bar { background: rgba(255,255,255,0); }
 
-            &:focus-within .var--header-menu-button {
-                pointer-events: none;
-            }
+                &::before {
+                    top: 8px;
+                    left: -3px;
+                    transform: rotate(-45deg);
+                }
 
-            &:focus-within .var--icon-bar:nth-of-type(1) {
-                transform: translate3d(0,8px,0) rotate(45deg);
-            }
+                &::after {
+                    left: 9px;
+                    bottom: 8px;
+                    transform: rotate(45deg)
+                }
 
-            &:focus-within .var--icon-bar:nth-of-type(2) {
-                opacity: 0;
-            }
-
-            &:focus-within .var--icon-bar:nth-of-type(3) {
-                transform: translate3d(0,-8px,0) rotate(-45deg);
+                &::before,
+                &::after {
+                    width: 20px;
+                }
             }
         }
-    }
 
-    .var--header-menu-button {
-        height: 70px;
-        width: 30px;
-        pointer-events: auto;
-        touch-action: manipulation;
+        &:hover,
+        &:focus,
+        &:active {
+            .toggle-bar { background: rgba(255,255,255,0); }
+
+            &::before {
+                top: 8px;
+                left: -3px;
+                transform: rotate(45deg);
+            }
+
+            &::after {
+                left: 9px;
+                bottom: 8px;
+                transform: rotate(-45deg)
+            }
+
+            &::before,
+            &::after {
+                width: 20px;
+            }
+        }
 
         @include mediaQuery(tablet-desktop) {
             display: none;
         }
     }
 
-    .var--icon-bar {
-        height: 3px;
-    }
-
-    .var--header-navbar {
+    .var--header-menu {
         @include mediaQuery(tablet-end) {
-            text-align: center;
-            margin-top: 8rem;
-            padding: 20px;
-            width: 90%;
-            max-width: 300px;
-            position: absolute;
             top: 0;
             left: 0;
-            height: calc(100% - 70px);
-            background-color: $orange-cna;
-            pointer-events: auto;
-            -webkit-tap-highlight-color: rgba(0,0,0,0);
-            transform: translateX(-100%);
-            transition: transform .3s;
-            will-change: transform;
+            margin: 0;
+            z-index: 1;
+            width: 100%;
+            background: $orange-cna;
+            padding: 5rem 0 2rem 0;
+            position: absolute;
+            transform: translateY(-100%);
+            transition: transform 0.3s cubic-bezier(1,0.5,0,1);
 
-            ul li {
-                margin-bottom: 1rem;
+            &.active {
+                box-shadow: 0 8px 16px rgba(0,0,0,.1),0 0 1px rgba(0,0,0,.05);
+                transform: translateY(0);
             }
 
-            ul li a {
-                color: white;
-                font-size: 1.25rem;
+            li {
+                a {
+                    padding: 1rem;
+                    color: white;
+                    display: block;
+                    line-height: 1rem;
+                    font-size: 1.25rem;
+                    text-align: center;
+                    text-decoration: none;
+                    transition: background 0.2s ease-in-out;
+
+                    span {
+                        border-bottom: 1px solid #fff;
+                    }
+
+                    &:hover,
+                    &:focus,
+                    &:active {
+                        background: rgba(255,255,255,0.2);
+                    }
+                }
             }
         }
-    }
 
-    .var--header-content:focus-within .var--header-navbar {
-        @include mediaQuery(tablet-end) {
-            transform: none;
+        @include mediaQuery(tablet-desktop) {
+            li a {
+                &:hover {
+                    color: #718096;
+                }
+
+                &:active,
+                &:focus {
+                    color: $orange-cna;
+                }
+            }
         }
     }
 </style>

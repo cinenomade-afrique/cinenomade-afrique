@@ -1,7 +1,9 @@
 <template>
-    <div class="DefaultLayout">
-        <HeaderMenu />
+    <div class="defaultLayoutContent">
+        <ClientOnly>
+            <HeaderMenu />
+        </ClientOnly>
         <slot />
-        <Footer />
     </div>
+    <Footer />
 </template>

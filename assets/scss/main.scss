@@ -7,3 +7,22 @@
         @apply max-w-sm rounded overflow-hidden shadow-lg;
     }
 }
+
+html,
+body {
+    height: 100%;
+}
+
+#__nuxt {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.defaultLayoutContent {
+    flex: 1 0 auto;
+}
+
+.var--footer {
+    flex-shrink: 0;
+}
