@@ -27,7 +27,7 @@
 
 <template>
     <header class="mt-6">
-        <div class="flex justify-between container mx-auto px-4">
+        <div class="flex justify-between container max-w-screen-xl mx-auto px-5">
             <NuxtLink to="/" class="z-10">
                 <img class="w-16" src="@/assets/images/logo/Logo_CNA_couleur.png" alt="CineNomadeAfrique">
             </NuxtLink>
@@ -201,6 +201,8 @@
 
         @include mediaQuery(tablet-desktop) {
             li a {
+                font-size: 1.125rem;
+
                 &:hover {
                     color: #718096;
                 }

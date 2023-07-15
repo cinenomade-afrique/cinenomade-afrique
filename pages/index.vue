@@ -13,7 +13,7 @@
 
 <template>
     <section>
-        <div class="container mx-auto px-4">
+        <div class="container max-w-screen-xl mx-auto px-5">
             <h1 class="text-5xl mt-14">Ciné Nomade Afrique</h1>
             <img src="@/assets/vite.svg" alt="" />
         </div>
