@@ -1,6 +1,21 @@
 <script>
     export default {
         mounted() {
+            // STICKY MENU
+            window.onscroll = () => {
+                const header = document.querySelector('.var--header-container');
+                const sticky = header.offsetTop;
+
+                const stickyMenu = () => {
+                    window.scrollY > sticky
+                    ? header.classList.add("sticky")
+                    : header.classList.remove("sticky")
+                }
+
+                return stickyMenu()
+            }
+
+            // MENU MOBILE
             const menuResponsive = () => {
                 const hamburger = {
                     menu: document.querySelector('.var--header-menu'),
@@ -26,13 +41,13 @@
 </script>
 
 <template>
-    <header class="mt-6">
-        <div class="flex justify-between container max-w-screen-xl mx-auto px-5">
-            <NuxtLink to="/" class="z-10">
-                <img class="w-16" src="@/assets/images/logo/Logo_CNA_couleur.png" alt="CineNomadeAfrique">
+    <header class="lg:mt-6 relative var--header">
+        <div class="flex justify-between container max-w-screen-xl mx-auto px-5 var--header-container">
+            <NuxtLink to="/" class="z-10 my-3 lg:my-0">
+                <img class="w-16" src="@/assets/images/logo/Logo_CNA_couleur.png" alt="Logo CineNomadeAfrique" loading="lazy" />
             </NuxtLink>
             <nav class="lg:flex lg:flex-col lg:justify-center var--header-navbar" role="navigation">
-                <div class="absolute top-6 right-6 w-8 h-5 cursor-pointer rounded-full var--header-menu-toggle"><span class="block h-1 overflow-hidden toggle-bar"></span></div>
+                <div class="absolute top-12 right-6 w-8 h-5 cursor-pointer rounded-full var--header-menu-toggle"><span class="block h-1 overflow-hidden toggle-bar"></span></div>
                 <ul class="menu inline-block var--header-menu">
                     <li class="lg:inline-block">
                         <NuxtLink class="lg:py-2.5 lg:px-5" to="/"><span>Accueil</span></NuxtLink>
@@ -62,6 +77,26 @@
 </template>
 
 <style lang="scss" scoped>
+
+    .var--header {
+        @include mediaQuery(tablet-end) {
+            height: 100px;
+        }
+    }
+    .var--header-container {
+        @include mediaQuery(tablet-end) {
+            position: fixed;
+            top: 0;
+            right: 0;
+            left: 0;
+            z-index: 2000;
+            background-color: white;
+
+            &.sticky {
+                box-shadow: 0 8px 16px rgba(0,0,0,.1);
+            }
+        }
+    }
     .var--header-menu-toggle {
         z-index: 2;
         padding: 8px 0;
@@ -200,16 +235,19 @@
         }
 
         @include mediaQuery(tablet-desktop) {
-            li a {
-                font-size: 1.125rem;
+            li {
+                margin-right: .5rem;
 
-                &:hover {
-                    color: #718096;
-                }
+                a {
+                    font-size: 1.125rem;
 
-                &:active,
-                &:focus {
-                    color: $orange-cna;
+                    &:hover,
+                    &:active,
+                    &:focus {
+                        color: white;
+                        background-color: $orange-cna;
+                        border-radius: .5rem;
+                    }
                 }
             }
         }
