@@ -23,7 +23,7 @@
                         a pour objectif de favoriser un accès à la culture pour tous, à travers un féstival et d’un
                         cinéma ambulant en Afrique.
                     </p>
-                    <p class="text-xl font-bold mt-5 mb-5 lg:mb-0">
+                    <p class="text-xl font-bold my-5 lg:mb-0">
                         Pour l'année 2023, Ciné'Nomade Afrique a prévu une
                         programmation ambitieuse qui promet d'offrir des expériences cinématographiques
                         inoubliables.

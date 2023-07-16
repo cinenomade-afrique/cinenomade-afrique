@@ -6,6 +6,11 @@
     .card {
         @apply max-w-sm rounded overflow-hidden shadow-lg;
     }
+
+    p,
+    ul {
+        @apply leading-relaxed;
+    }
 }
 
 html,
@@ -33,4 +38,5 @@ body {
 
 .background-1 {
     background-color: $bgc-1;
+    color: #486b79;
 }
