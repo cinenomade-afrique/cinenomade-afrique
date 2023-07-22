@@ -42,7 +42,7 @@
 
 <template>
     <header class="lg:mt-6 relative var--header">
-        <div class="flex justify-between container max-w-screen-xl mx-auto px-5 var--header-container">
+        <div class="flex justify-between container max-w-screen-xl mx-auto px-5 md:px-10 var--header-container">
             <NuxtLink to="/" class="z-10 my-3 lg:my-0">
                 <img class="w-16" src="@/assets/images/logo/Logo_CNA_couleur.png" alt="Logo CineNomadeAfrique" loading="lazy" />
             </NuxtLink>
@@ -236,7 +236,7 @@
 
         @include mediaQuery(tablet-desktop) {
             li {
-                margin-right: .5rem;
+                margin-right: .2rem;
 
                 a {
                     font-size: 1.125rem;

@@ -6,7 +6,7 @@
 
 <template>
     <section>
-        <div class="container max-w-screen-xl mx-auto px-5">
+        <div class="container max-w-screen-xl mx-auto px-5 md:px-10">
             <h1 class="text-5xl mt-14">Médias Page</h1>
         </div>
     </section>
