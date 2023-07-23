@@ -4,9 +4,9 @@
 <template>
     <div class="container my-8 mx-auto md:px-6 text-center md:text-left">
         <div class="flex flex-wrap justify-center">
-            <div class="w-full shrink-0 grow-0 basis-auto px-3 lg:w-10/12">
-                <div class="grid items-center gap-x-6 md:grid-cols-2">
-                    <div class="mb-6 md:mb-0">
+            <div class="w-full shrink-0 grow-0 basis-auto px-3 lg:w-10/12 xl:w-9/12">
+                <div class="grid items-center gap-x-6 lg:grid-cols-2 max-lg:justify-center">
+                    <div class="mb-6 md:mb-0 hidden lg:block">
                         <h2 class="text-3xl font-semibold">
                             Suivez-nous !
                             <br />

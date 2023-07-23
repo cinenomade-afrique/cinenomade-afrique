@@ -1,6 +1,6 @@
 <script lang="ts">
   useHead({
-    title: "Cine Nomade Afrique - Nos équipes",
+    title: "Cine Nomade Afrique - Nos actions",
   });
   // export default {
   //   name: "Collapse",

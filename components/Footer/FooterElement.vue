@@ -19,7 +19,7 @@
         <div>
             <h2 class="mb-0" id="headingOne">
                 <button
-                    class="group relative flex w-full items-center border-0 py-4 text-left text-base transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none"
+                    class="group relative flex w-full items-center border-0 py-4 text-base transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none"
                     type="button" data-te-collapse-init data-te-target="#collapseOne" aria-expanded="true"
                     aria-controls="collapseOne">
                     Titre Bloc
@@ -34,17 +34,17 @@
             </h2>
             <div id="collapseOne" class="!visible" data-te-collapse-item data-te-collapse-show
                 aria-labelledby="headingOne" data-te-parent="#accordionExample">
-                <div class="px-5 py-4">
+                <p class="px-5 py-4">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic consequatu beatae saepe, aperiam rem
                     nostrum repellat.
-                </div>
+                </p>
             </div>
         </div>
 
         <div>
             <h2 class="mb-0" id="headingTwo">
                 <button
-                    class="group relative flex w-full items-center border-0 py-4 text-left text-base transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none"
+                    class="group relative flex w-full items-center border-0 py-4 text-base transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none"
                     type="button" data-te-collapse-init data-te-collapse-collapsed data-te-target="#collapseTwo"
                     aria-expanded="false" aria-controls="collapseTwo">
                     Groupe Lien 1
@@ -73,7 +73,7 @@
         <div>
             <h2 class="accordion-header mb-0" id="headingThree">
                 <button
-                    class="group relative flex w-full items-center border-0 py-4 text-left text-base transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none"
+                    class="group relative flex w-full items-center border-0 py-4 text-base transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none"
                     type="button" data-te-collapse-init data-te-collapse-collapsed data-te-target="#collapseThree"
                     aria-expanded="false" aria-controls="collapseThree">
                     Groupe Lien 2
@@ -102,7 +102,7 @@
         <div>
             <h2 class="accordion-header mb-0" id="headingFour">
                 <button
-                    class="group relative flex w-full items-center border-0 py-4 text-left text-base transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none"
+                    class="group relative flex w-full items-center border-0 py-4 text-base transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none"
                     type="button" data-te-collapse-init data-te-collapse-collapsed data-te-target="#collapseFour"
                     aria-expanded="false" aria-controls="collapseFour">
                     Contact
