@@ -19,10 +19,10 @@
         <div>
             <h2 class="mb-0" id="headingOne">
                 <button
-                    class="group relative flex w-full items-center border-0 py-4 text-base transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none"
+                    class="group relative flex w-full items-center border-0 py-4 font-semibold text-base transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none"
                     type="button" data-te-collapse-init data-te-target="#collapseOne" aria-expanded="true"
                     aria-controls="collapseOne">
-                    Titre Bloc
+                    À propos
                     <span
                         class="ml-auto h-5 w-5 shrink-0 rotate-[-180deg] transition-transform duration-200 ease-in-out group-[[data-te-collapse-collapsed]]:rotate-0 motion-reduce:transition-none">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -34,7 +34,7 @@
             </h2>
             <div id="collapseOne" class="!visible" data-te-collapse-item data-te-collapse-show
                 aria-labelledby="headingOne" data-te-parent="#accordionExample">
-                <p class="px-5 py-4">
+                <p class="px-5 py-4 text-sm">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic consequatu beatae saepe, aperiam rem
                     nostrum repellat.
                 </p>
@@ -44,10 +44,10 @@
         <div>
             <h2 class="mb-0" id="headingTwo">
                 <button
-                    class="group relative flex w-full items-center border-0 py-4 text-base transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none"
+                    class="group relative flex w-full items-center border-0 py-4 font-semibold text-base transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none"
                     type="button" data-te-collapse-init data-te-collapse-collapsed data-te-target="#collapseTwo"
                     aria-expanded="false" aria-controls="collapseTwo">
-                    Groupe Lien 1
+                    Le site
                     <span
                         class="-mr-1 ml-auto h-5 w-5 shrink-0 rotate-[-180deg] transition-transform duration-200 ease-in-out group-[[data-te-collapse-collapsed]]:mr-0 group-[[data-te-collapse-collapsed]]:rotate-0 motion-reduce:transition-none">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -60,11 +60,11 @@
             <div id="collapseTwo" class="!visible hidden" data-te-collapse-item aria-labelledby="headingTwo"
                 data-te-parent="#accordionExample">
                 <div class="px-5 py-4">
-                    <ul>
-                        <li class="mb-4"><a href="#!">Lien 1</a></li>
-                        <li class="mb-4"><a href="#!">Lien 2</a></li>
-                        <li class="mb-4"><a href="#!">Lien 3</a></li>
-                        <li class="mb-4"><a href="#!">Lien 4</a></li>
+                    <ul class="text-sm">
+                        <li class="mb-4"><NuxtLink to="/nos-actions">Nos Actions</NuxtLink></li>
+                        <li class="mb-4"><NuxtLink to="/festival">Le Festival</NuxtLink></li>
+                        <li class="mb-4"><NuxtLink to="/nos-partenaires">Nos Partenaires</NuxtLink></li>
+                        <li class="mb-4"><NuxtLink to="/contact">Nous Contactez</NuxtLink></li>
                     </ul>
                 </div>
             </div>
@@ -73,10 +73,10 @@
         <div>
             <h2 class="accordion-header mb-0" id="headingThree">
                 <button
-                    class="group relative flex w-full items-center border-0 py-4 text-base transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none"
+                    class="group relative flex w-full items-center border-0 py-4 font-semibold text-base transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none"
                     type="button" data-te-collapse-init data-te-collapse-collapsed data-te-target="#collapseThree"
                     aria-expanded="false" aria-controls="collapseThree">
-                    Groupe Lien 2
+                    L'association
                     <span
                         class="-mr-1 ml-auto h-5 w-5 shrink-0 rotate-[-180deg] transition-transform duration-200 ease-in-out group-[[data-te-collapse-collapsed]]:mr-0 group-[[data-te-collapse-collapsed]]:rotate-0 motion-reduce:transition-none">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -89,11 +89,10 @@
             <div id="collapseThree" class="!visible hidden" data-te-collapse-item aria-labelledby="headingThree"
                 data-te-parent="#accordionExample">
                 <div class="px-5 py-4">
-                    <ul>
-                        <li class="mb-4"><a href="#!">Lien 5</a></li>
-                        <li class="mb-4"><a href="#!">Lien 6</a></li>
-                        <li class="mb-4"><a href="#!">Lien 7</a></li>
-                        <li class="mb-4"><a href="#!">Lien 8</a></li>
+                    <ul class="text-sm">
+                        <li class="mb-4"><NuxtLink to="/teams">L'Équipe</NuxtLink></li>
+                        <li class="mb-4"><NuxtLink to="/media">Médias</NuxtLink></li>
+                        <li class="mb-4"><NuxtLink to="/phototheque">Photothèque</NuxtLink></li>
                     </ul>
                 </div>
             </div>
@@ -102,7 +101,7 @@
         <div>
             <h2 class="accordion-header mb-0" id="headingFour">
                 <button
-                    class="group relative flex w-full items-center border-0 py-4 text-base transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none"
+                    class="group relative flex w-full items-center border-0 py-4 font-semibold text-base transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none"
                     type="button" data-te-collapse-init data-te-collapse-collapsed data-te-target="#collapseFour"
                     aria-expanded="false" aria-controls="collapseFour">
                     Contact
@@ -181,35 +180,34 @@
                         <path
                             d="M12.378 1.602a.75.75 0 00-.756 0L3 6.632l9 5.25 9-5.25-8.622-5.03zM21.75 7.93l-9 5.25v9l8.628-5.032a.75.75 0 00.372-.648V7.93zM11.25 22.18v-9l-9-5.25v8.57a.75.75 0 00.372.648l8.628 5.033z" />
                     </svg>
-                    Titre bloc
+                    À propos
                 </h6>
-                <p>
+                <p class="text-sm">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic consequatu beatae saepe, aperiam rem
                     nostrum repellat.
                 </p>
             </div>
             <!-- Lien 1 section -->
-            <div class="">
+            <div class="var--footer-element-list">
                 <h6 class="mb-4 flex justify-center font-semibold uppercase md:justify-start">
-                    Groupe Lien 1
+                    Le site
                 </h6>
-                <ul>
-                    <li class="mb-4"><a href="#!">Lien 1</a></li>
-                    <li class="mb-4"><a href="#!">Lien 2</a></li>
-                    <li class="mb-4"><a href="#!">Lien 3</a></li>
-                    <li class="mb-4"><a href="#!">Lien 4</a></li>
+                <ul class="text-sm">
+                    <li class="mb-4"><NuxtLink to="/nos-actions">Nos Actions</NuxtLink></li>
+                    <li class="mb-4"><NuxtLink to="/festival">Le Festival</NuxtLink></li>
+                    <li class="mb-4"><NuxtLink to="/nos-partenaires">Nos Partenaires</NuxtLink></li>
+                    <li class="mb-4"><NuxtLink to="/contact">Nous Contactez</NuxtLink></li>
                 </ul>
             </div>
             <!-- Lien 2 section -->
-            <div class="">
+            <div class="var--footer-element-list">
                 <h6 class="mb-4 flex justify-center font-semibold uppercase md:justify-start">
-                    Groupe Lien 2
+                    L'association
                 </h6>
-                <ul>
-                    <li class="mb-4"><a href="#!">Lien 5</a></li>
-                    <li class="mb-4"><a href="#!">Lien 6</a></li>
-                    <li class="mb-4"><a href="#!">Lien 7</a></li>
-                    <li class="mb-4"><a href="#!">Lien 8</a></li>
+                <ul class="text-sm">
+                    <li class="mb-4"><NuxtLink to="/teams">L'Équipe</NuxtLink></li>
+                    <li class="mb-4"><NuxtLink to="/media">Médias</NuxtLink></li>
+                    <li class="mb-4"><NuxtLink to="/phototheque">Photothèque</NuxtLink></li>
                 </ul>
             </div>
             <!-- Contact section -->
@@ -261,4 +259,11 @@
 </template>
 
 <style lang="scss" scoped>
+    @include mediaQuery(tablet-desktop) {
+        .var--footer-element-list ul li a {
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
 </style>

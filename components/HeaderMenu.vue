@@ -59,12 +59,6 @@
                         <NuxtLink class="lg:py-2.5 lg:px-5" to="/festival"><span>Le Festival</span></NuxtLink>
                     </li>
                     <li class="lg:inline-block">
-                        <NuxtLink class="lg:py-2.5 lg:px-5" to="/teams"><span>L'équipe</span></NuxtLink>
-                    </li>
-                    <li class="lg:inline-block">
-                        <NuxtLink class="lg:py-2.5 lg:px-5" to="/media"><span>Médias</span></NuxtLink>
-                    </li>
-                    <li class="lg:inline-block">
                         <NuxtLink class="lg:py-2.5 lg:px-5" to="/nos-partenaires"><span>Nos partenaires</span></NuxtLink>
                     </li>
                     <li class="lg:inline-block">
@@ -102,7 +96,7 @@
         padding: 8px 0;
 
         .toggle-bar {
-            background: $orange-cna;
+            background: $green-cna;
             border-radius: 2px;
             transition: background 0.3s ease-in-out;
         }
@@ -113,7 +107,7 @@
             content: '';
             width: 32px;
             height: 4px;
-            background: $orange-cna;
+            background: $green-cna;
             border-radius: 2px;
             position: absolute;
             transform-origin: center center;
@@ -199,7 +193,7 @@
             margin: 0;
             z-index: 1;
             width: 100%;
-            background: $orange-cna;
+            background: $green-cna;
             padding: 5rem 0 2rem 0;
             position: absolute;
             transform: translateY(-100%);
@@ -245,7 +239,7 @@
                     &:active,
                     &:focus {
                         color: white;
-                        background-color: $orange-cna;
+                        background-color: $green-cna;
                         border-radius: .5rem;
                     }
                 }

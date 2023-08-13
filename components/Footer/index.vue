@@ -15,7 +15,7 @@
 <template>
     <footer class="var--footer">
         <FooterSocialMedia />
-        <div class="bg-cyan-600 text-white">
+        <div class="background-orange">
             <div class="flex flex-col container max-w-screen-xl mx-auto px-5">
                 <FooterElement />
                 <p class="text-xs text-center py-5">
