@@ -47,7 +47,7 @@
                     class="group relative flex w-full items-center border-0 py-4 font-semibold text-base transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none"
                     type="button" data-te-collapse-init data-te-collapse-collapsed data-te-target="#collapseTwo"
                     aria-expanded="false" aria-controls="collapseTwo">
-                    Le site
+                    L'association
                     <span
                         class="-mr-1 ml-auto h-5 w-5 shrink-0 rotate-[-180deg] transition-transform duration-200 ease-in-out group-[[data-te-collapse-collapsed]]:mr-0 group-[[data-te-collapse-collapsed]]:rotate-0 motion-reduce:transition-none">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -61,10 +61,9 @@
                 data-te-parent="#accordionExample">
                 <div class="px-5 py-4">
                     <ul class="text-sm">
-                        <li class="mb-4"><NuxtLink to="/nos-actions">Nos Actions</NuxtLink></li>
-                        <li class="mb-4"><NuxtLink to="/festival">Le Festival</NuxtLink></li>
-                        <li class="mb-4"><NuxtLink to="/nos-partenaires">Nos Partenaires</NuxtLink></li>
-                        <li class="mb-4"><NuxtLink to="/contact">Nous Contactez</NuxtLink></li>
+                        <li class="mb-4"><NuxtLink to="/teams">L'Équipe</NuxtLink></li>
+                        <li class="mb-4"><NuxtLink to="/media">Médias</NuxtLink></li>
+                        <li class="mb-4"><NuxtLink to="/phototheque">Photothèque</NuxtLink></li>
                     </ul>
                 </div>
             </div>
@@ -76,7 +75,7 @@
                     class="group relative flex w-full items-center border-0 py-4 font-semibold text-base transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none"
                     type="button" data-te-collapse-init data-te-collapse-collapsed data-te-target="#collapseThree"
                     aria-expanded="false" aria-controls="collapseThree">
-                    L'association
+                    Le site
                     <span
                         class="-mr-1 ml-auto h-5 w-5 shrink-0 rotate-[-180deg] transition-transform duration-200 ease-in-out group-[[data-te-collapse-collapsed]]:mr-0 group-[[data-te-collapse-collapsed]]:rotate-0 motion-reduce:transition-none">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -90,9 +89,10 @@
                 data-te-parent="#accordionExample">
                 <div class="px-5 py-4">
                     <ul class="text-sm">
-                        <li class="mb-4"><NuxtLink to="/teams">L'Équipe</NuxtLink></li>
-                        <li class="mb-4"><NuxtLink to="/media">Médias</NuxtLink></li>
-                        <li class="mb-4"><NuxtLink to="/phototheque">Photothèque</NuxtLink></li>
+                        <li class="mb-4"><NuxtLink to="/nos-actions">Nos Actions</NuxtLink></li>
+                        <li class="mb-4"><NuxtLink to="/festival">Le Festival</NuxtLink></li>
+                        <li class="mb-4"><NuxtLink to="/nos-partenaires">Nos Partenaires</NuxtLink></li>
+                        <li class="mb-4"><NuxtLink to="/contact">Nous Contactez</NuxtLink></li>
                     </ul>
                 </div>
             </div>
@@ -190,6 +190,17 @@
             <!-- Lien 1 section -->
             <div class="var--footer-element-list">
                 <h6 class="mb-4 flex justify-center font-semibold uppercase md:justify-start">
+                    L'association
+                </h6>
+                <ul class="text-sm">
+                    <li class="mb-4"><NuxtLink to="/teams">L'Équipe</NuxtLink></li>
+                    <li class="mb-4"><NuxtLink to="/media">Médias</NuxtLink></li>
+                    <li class="mb-4"><NuxtLink to="/phototheque">Photothèque</NuxtLink></li>
+                </ul>
+            </div>
+            <!-- Lien 2 section -->
+            <div class="var--footer-element-list">
+                <h6 class="mb-4 flex justify-center font-semibold uppercase md:justify-start">
                     Le site
                 </h6>
                 <ul class="text-sm">
@@ -197,17 +208,6 @@
                     <li class="mb-4"><NuxtLink to="/festival">Le Festival</NuxtLink></li>
                     <li class="mb-4"><NuxtLink to="/nos-partenaires">Nos Partenaires</NuxtLink></li>
                     <li class="mb-4"><NuxtLink to="/contact">Nous Contactez</NuxtLink></li>
-                </ul>
-            </div>
-            <!-- Lien 2 section -->
-            <div class="var--footer-element-list">
-                <h6 class="mb-4 flex justify-center font-semibold uppercase md:justify-start">
-                    L'association
-                </h6>
-                <ul class="text-sm">
-                    <li class="mb-4"><NuxtLink to="/teams">L'Équipe</NuxtLink></li>
-                    <li class="mb-4"><NuxtLink to="/media">Médias</NuxtLink></li>
-                    <li class="mb-4"><NuxtLink to="/phototheque">Photothèque</NuxtLink></li>
                 </ul>
             </div>
             <!-- Contact section -->
