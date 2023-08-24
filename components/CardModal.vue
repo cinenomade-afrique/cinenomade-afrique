@@ -48,7 +48,7 @@
                 data-te-toggle="modal"
                 :data-te-target="`#test-${idLabel}`"
                 data-te-ripple-color="light">
-                Click
+                Détail
             </button>
         </div>
     </div>

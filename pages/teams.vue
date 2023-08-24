@@ -3,7 +3,7 @@
         title: "Cine Nomade Afrique - L'équipe",
     });
 
-    const cardData = ref([{
+    const cardModalData = ref([{
       id: 1,
       image: 'partenaires-cna-pictures-1.jpg',
       title: 'Aïssa DIABY',
@@ -51,14 +51,14 @@
         <div class="container max-w-screen-xl mx-auto my-14 px-5 md:px-10">
             <h1 class="text-5xl mt-14">Notre Équipe</h1>
             <div class="grid md:grid-cols-2 md:gap-3 lg:grid-cols-3 lg:gap-4 justify-center my-14">
-                <Cards v-for="card in cardData"
-                  :key="card.id"
-                  :idLabel="card.idLabel"
-                  v-bind:id="card.id"
-                  :title="card.title"
-                  :subTitle="card.subTitle"
-                  :image="card.image"
-                  :text="card.text" />
+                <CardModal v-for="cardModal in cardModalData"
+                  :key="cardModal.id"
+                  :idLabel="cardModal.idLabel"
+                  v-bind:id="cardModal.id"
+                  :title="cardModal.title"
+                  :subTitle="cardModal.subTitle"
+                  :image="cardModal.image"
+                  :text="cardModal.text" />
             </div>
         </div>
     </section>
