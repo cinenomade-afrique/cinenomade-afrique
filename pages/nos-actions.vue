@@ -23,7 +23,7 @@
     <div class="container max-w-screen-xl mx-auto px-5 md:px-10">
       <h1 class="text-5xl mt-14">Nos actions Page</h1>
       <div class="flex my-14">
-        <Cards v-for="card in cardData" :key="card.id" :title="card.title" :text="card.text" :image="card.image" />
+
       </div>
     </div>
   </section>
