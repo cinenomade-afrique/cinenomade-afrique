@@ -61,6 +61,7 @@
                 data-te-parent="#accordionExample">
                 <div class="px-5 py-4">
                     <ul class="text-sm">
+                        <li class="mb-4"><NuxtLink to="/notre-histoire">Notre histoire</NuxtLink></li>
                         <li class="mb-4"><NuxtLink to="/teams">L'Équipe</NuxtLink></li>
                         <li class="mb-4"><NuxtLink to="/media">Médias</NuxtLink></li>
                         <li class="mb-4"><NuxtLink to="/phototheque">Photothèque</NuxtLink></li>
@@ -193,6 +194,7 @@
                     L'association
                 </h6>
                 <ul class="text-sm">
+                    <li class="mb-4"><NuxtLink to="/notre-histoire">Notre histoire</NuxtLink></li>
                     <li class="mb-4"><NuxtLink to="/teams">L'Équipe</NuxtLink></li>
                     <li class="mb-4"><NuxtLink to="/media">Médias</NuxtLink></li>
                     <li class="mb-4"><NuxtLink to="/phototheque">Photothèque</NuxtLink></li>
