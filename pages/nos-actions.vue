@@ -8,7 +8,7 @@
   <section>
     <div class="container max-w-screen-xl mx-auto px-5 md:px-10">
       <h1 class="text-5xl mt-14">Nos actions</h1>
-      <div class="grid lg:grid-cols-2 lg:gap-4 mt-14">
+      <div class="grid items-center lg:grid-cols-2 lg:gap-4 mt-14">
         <div>
           <p class="mt-4">Ciné'Nomade Afrique est une association créée en 2022. Notre mission est de promouvoir le cinéma africain et de fournir une formation de qualité
             en création audiovisuelle, non seulement en Afrique, mais aussi à l'international. Nous nous engageons à donner aux jeunes et aux femmes de Guinée les outils et
@@ -29,6 +29,7 @@
             Nous sommes fiers de nos partenariats avec des organisations comme l'Usine à Films et le Cinéma Numérique Ambulant (CNA) du Mali, qui partagent notre vision et soutiennent notre mission.
           </p>
           <p class="mt-4">Chez Ciné'Nomade, nous croyons que le cinéma a le pouvoir de changer des vies, de stimuler le dialogue et de favoriser la compréhension culturelle. Nous vous invitons à vous joindre à nous dans notre mission de faire du cinéma un vecteur d'éducation et d'émancipation.</p>
+          <TimeLine />
         </div>
       </div>
     </div>
