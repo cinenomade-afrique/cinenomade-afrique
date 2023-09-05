@@ -28,7 +28,7 @@
         class="relative block max-w-[21rem] md:max-w-[25rem] text-center rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 mb-8">
         <div class="flex">
           <div class="relative mx-4 -mt-4 overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20" data-te-ripple-init data-te-ripple-color="light">
-              <img class="w-full" v-bind:src="'/images/phototheque/' + image" alt="" />
+              <img class="w-full" v-bind:src="'/images/phototheque/' + image" alt="" loading="lazy" />
               <a href="#!">
                   <div
                       class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsla(0,0%,98%,0.15)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100">
