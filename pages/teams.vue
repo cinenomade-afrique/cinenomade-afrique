@@ -5,7 +5,7 @@
 
     const cardModalData = ref([{
       id: 1,
-      image: 'partenaires-cna-pictures-1.jpg',
+      image: 'aissa-diaby-presidente.png',
       title: 'Aïssa DIABY',
       subTitle: 'Présidente de l’Association & Coordinatrice générale',
       idLabel: 'example1',
@@ -13,7 +13,7 @@
     },
     {
       id: 2,
-      image: 'partenaires-cna-pictures-2.jpg',
+      image: 'naby-camara-responsable-administratif.png',
       title: 'Aboubacar-Naby CAMARA',
       subTitle: 'Responsable Admnistratif',
       idLabel: 'example2',
@@ -21,7 +21,7 @@
     },
     {
       id: 3,
-      image: 'partenaires-cna-pictures-1.jpg',
+      image: 'sidney-cadot-responsable-programmation.png',
       title: 'Sidney Cadot',
       subTitle: 'Responsable de la programation',
       idLabel: 'example3',
@@ -29,7 +29,7 @@
     },
     {
       id: 4,
-      image: 'partenaires-cna-pictures-2.jpg',
+      image: 'anne-cisse-responsable-developpement.png',
       title: 'Anné Cissé',
       subTitle: 'Résponsable dévelopement',
       idLabel: 'example4',
@@ -37,7 +37,7 @@
     },
     {
       id: 5,
-      image: 'partenaires-cna-pictures-1.jpg',
+      image: 'assita-gassama-tasta-coordinatrice.png',
       title: 'Assita GASSAMA (Tasta)',
       subTitle: 'Coordinatrice logistique et événementielle',
       idLabel: 'example5',
@@ -50,15 +50,17 @@
     <section>
         <div class="container max-w-screen-xl mx-auto my-14 px-5 md:px-10">
             <h1 class="text-5xl mt-14">Notre Équipe</h1>
-            <div class="grid md:grid-cols-2 md:gap-3 lg:grid-cols-3 lg:gap-4 justify-center my-14">
-                <CardModal v-for="cardModal in cardModalData"
-                  :key="cardModal.id"
-                  :idLabel="cardModal.idLabel"
-                  v-bind:id="cardModal.id"
-                  :title="cardModal.title"
-                  :subTitle="cardModal.subTitle"
-                  :image="cardModal.image"
-                  :text="cardModal.text" />
+            <div class="lg:max-w-[60rem]">
+              <div class="grid md:grid-cols-2 md:gap-3 lg:grid-cols-3 lg:gap-3 justify-center my-14">
+                  <CardModal v-for="cardModal in cardModalData"
+                    :key="cardModal.id"
+                    :idLabel="cardModal.idLabel"
+                    v-bind:id="cardModal.id"
+                    :title="cardModal.title"
+                    :subTitle="cardModal.subTitle"
+                    :image="cardModal.image"
+                    :text="cardModal.text" />
+              </div>
             </div>
         </div>
     </section>
