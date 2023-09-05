@@ -26,3 +26,9 @@
         </div>
     </footer>
 </template>
+
+<style lang="scss" scoped>
+    .var--footer {
+        border-top: 1px solid $orange-cna;
+    }
+</style>
