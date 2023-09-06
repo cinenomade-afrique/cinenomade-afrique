@@ -42,16 +42,16 @@
             </div>
         </div>
 
-        <div class="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%">
+        <div class=" var--video-container">
             <div class="background-radial-gradient container max-w-screen-xl mx-auto md:px-6">
                 <div class="px-6 py-12 text-center lg:text-left">
                     <div class="container mx-auto">
                         <div class="grid items-center gap-12 lg:grid-cols-2">
                             <div class="mt-12 lg:mt-0">
-                                <h1 class="mb-12 text-5xl font-semibold tracking-tight text-[hsl(218,81%,95%)] md:text-6xl xl:text-7xl">
-                                    Un accès au Cinéma <br /><span class="text-[hsl(218,81%,75%)]">pour tous !</span>
+                                <h1 class="mb-12 text-5xl font-semibold tracking-tight md:text-6xl xl:text-7xl">
+                                    Un accès au Cinéma <br /><span class="text-green-cna">pour tous !</span>
                                 </h1>
-                                <p class="text-lg text-[hsl(218,81%,95%)]">
+                                <p class="text-lg">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                     Minima officia consequatur adipisci tenetur repudiandae rerum
                                     quos.
@@ -67,3 +67,10 @@
         </div>
     </section>
 </template>
+
+<style lang="scss" scoped>
+    .var--video-container {
+        background: url(@/assets/images/bg-cna-image-1.png) no-repeat;
+        background-size: cover;
+    }
+</style>
