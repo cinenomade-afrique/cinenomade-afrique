@@ -65,7 +65,7 @@
             <p class="mb-4">Chez Ciné'Nomade, nous croyons que le cinéma a le pouvoir de changer des vies, de stimuler le
             dialogue et de favoriser la compréhension culturelle. Nous vous invitons à vous joindre à nous dans notre
             mission de faire du cinéma un vecteur d'éducation et d'émancipation.</p>
-            <img src="images/actions/cinema-pleine-air-nuit-cna.jpg"
+            <img src="/images/actions/cinema-pleine-air-nuit-cna.jpg"
               class="w-full rounded-lg shadow-lg dark:shadow-black/20" loading="lazy" alt="Ciné nomade Afrique" />
           </div>
         </div>
