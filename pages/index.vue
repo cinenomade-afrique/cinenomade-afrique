@@ -42,7 +42,7 @@
             </div>
         </div>
 
-        <div class=" var--video-container">
+        <div class="var--video-container">
             <div class="background-radial-gradient container max-w-screen-xl mx-auto md:px-6">
                 <div class="px-6 py-12 text-center lg:text-left">
                     <div class="container mx-auto">

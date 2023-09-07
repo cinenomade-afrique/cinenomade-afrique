@@ -3,11 +3,13 @@
         name: "Timeline",
         mounted: async function () {
             const {
+                Lightbox,
                 Ripple,
-                initTE
+                initTE,
             } = await import("tw-elements");
 
             initTE({
+                Lightbox,
                 Ripple
             });
         }
@@ -17,7 +19,6 @@
 <template>
     <div class="mt-14">
         <ol class="border-l-2 border-red-500 dark:border-red-500">
-            <!--First item-->
             <li>
                 <div class="flex-start flex items-center">
                     <div
@@ -25,7 +26,7 @@
                     </div>
                     <h4 class="-mt-2 text-xl font-semibold">Action 2022</h4>
                 </div>
-                <div class="mb-6 ml-6 pb-6">
+                <div data-te-lightbox-init class="mb-6 ml-6 pb-6">
                     <a href="#!" class="text-sm text-red-500 transition duration-150 ease-in-out">
                         2022</a>
                     <p class="mb-4 mt-2 text-neutral-600 dark:text-neutral-300">
@@ -37,22 +38,37 @@
                         "Douleur silencieuse",
                         et a suscité des discussions importantes autour des thèmes abordés dans ces films.
                     </p>
-                    <div class="lg:flex lg:justify-between">
+                    <div class="lg:flex lg:justify-between mb-4">
                         <div>
-                            <img src="https://tecdn.b-cdn.net/img/new/standard/city/041.webp"
-                                class="w-full h-auto max-w-sm rounded-lg shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/30"
-                                alt="" />
+                            <img src="/images/actions/cinema-pleine-air-jour-cna.jpg"
+                                data-te-img="/images/actions/cinema-pleine-air-jour-cna.jpg"
+                                class="w-full h-auto max-w-sm rounded-lg shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/30 cursor-zoom-in data-[te-lightbox-disabled]:cursor-auto"
+                                alt="a" />
                         </div>
                         <div class="max-lg:mt-4">
-                            <img src="https://tecdn.b-cdn.net/img/new/standard/city/041.webp"
-                                class="w-full h-auto max-w-sm rounded-lg shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/30"
-                                alt="" />
+                            <img src="/images/actions/cinema-pleine-air-nuit-cna.jpg"
+                                data-te-img="/images/actions/cinema-pleine-air-nuit-cna.jpg"
+                                class="w-full h-auto max-w-sm rounded-lg shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/30 cursor-zoom-in data-[te-lightbox-disabled]:cursor-auto"
+                                alt="b" />
+                        </div>
+                    </div>
+                    <div class="lg:flex lg:justify-between">
+                        <div>
+                            <img src="/images/actions/cinema-pleine-air-nuit-cna-2.jpg"
+                                data-te-img="/images/actions/cinema-pleine-air-nuit-cna-2.jpg"
+                                class="w-full h-auto max-w-sm rounded-lg shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/30 cursor-zoom-in data-[te-lightbox-disabled]:cursor-auto"
+                                alt="c" />
+                        </div>
+                        <div class="max-lg:mt-4">
+                            <img src="/images/actions/tour-etape-guinee-cna.png"
+                                data-te-img="/images/actions/tour-etape-guinee-cna.png"
+                                class="w-full h-auto max-w-sm rounded-lg shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/30 cursor-zoom-in data-[te-lightbox-disabled]:cursor-auto"
+                                alt="d" />
                         </div>
                     </div>
                 </div>
             </li>
 
-            <!--Second item-->
             <li>
                 <div class="flex-start flex items-center">
                     <div
@@ -77,18 +93,6 @@
                         Consultez notre programme pour plus d'informations sur les films, les réalisateurs, les lieux et
                         les horaires.
                     </p>
-                    <div class="lg:flex lg:justify-between">
-                        <div>
-                            <img src="https://tecdn.b-cdn.net/img/new/standard/city/041.webp"
-                                class="w-full h-auto max-w-sm rounded-lg shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/30"
-                                alt="" />
-                        </div>
-                        <div class="max-lg:mt-4">
-                            <img src="https://tecdn.b-cdn.net/img/new/standard/city/041.webp"
-                                class="w-full h-auto max-w-sm rounded-lg shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/30"
-                                alt="" />
-                        </div>
-                    </div>
                 </div>
             </li>
         </ol>
