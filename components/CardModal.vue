@@ -1,6 +1,6 @@
 <script>
     export default {
-        name: "Cards",
+        name: "CardModal",
         mounted: async function () {
             const {
                 Modal,
@@ -14,6 +14,7 @@
             });
         },
         props: {
+            id: Number,
             image: String,
             title: String,
             subTitle: String,
@@ -25,10 +26,10 @@
 
 <template>
     <div
-        class="border border-warning relative block max-w-[21rem] md:max-w-[25rem] text-center rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 mb-8">
+        class="border-2 border-dashed border-warning relative block max-w-[21rem] md:max-w-[25rem] text-center rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 mb-8">
         <div class="flex justify-center">
           <div class="relative mx-4 -mt-4 overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20" data-te-ripple-init data-te-ripple-color="light">
-              <img class="w-full h-64" v-bind:src="'/images/teams/' + image" alt="" loading="lazy" />
+              <img class="w-full h-64" v-bind:src="'/images/teams/' + image" :alt="`${title}`" loading="lazy" />
               <a href="#!">
                   <div
                       class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsla(0,0%,98%,0.15)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100">
@@ -48,7 +49,7 @@
                 class="inline-block rounded-full bg-red-600 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-red-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-red-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-red-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]"
                 data-te-ripple-init
                 data-te-toggle="modal"
-                :data-te-target="`#test-${idLabel}`"
+                :data-te-target="`#modal-${idLabel}`"
                 data-te-ripple-color="light">
                 Détail
             </button>
@@ -58,10 +59,10 @@
     <!-- Modal -->
     <div
       data-te-modal-init
-      class="fixed left-0 top-40 z-[1055] hidden h-full w-full overflow-y-auto overflow-x-hidden outline-none"
-      :id="`test-${idLabel}`"
+      class="fixed left-0 top-32 lg:top-10 z-[1055] hidden h-full w-full overflow-y-auto overflow-x-hidden outline-none"
+      :id="`modal-${idLabel}`"
       tabindex="-1"
-      aria-labelledby="exampleModalLabel"
+      aria-labelledby="modalLabel"
       aria-hidden="true">
       <div
         data-te-modal-dialog-ref
@@ -73,7 +74,7 @@
             <!--Modal title-->
             <h5
               class="text-xl font-medium leading-normal text-neutral-800 dark:text-neutral-200"
-              id="exampleModalLabel">
+              id="modalLabel">
               {{ title }}
             </h5>
             <!--Close button-->
@@ -99,7 +100,8 @@
 
           <!--Modal body-->
           <div class="relative overflow-y-auto p-4" data-te-modal-body-ref>
-            {{ text }}
+            <p>{{ text }}</p>
+            <div style="height:100px;"></div>
           </div>
 
           <!--Modal footer-->
