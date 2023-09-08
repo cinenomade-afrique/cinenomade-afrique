@@ -38,32 +38,44 @@
                         "Douleur silencieuse",
                         et a suscité des discussions importantes autour des thèmes abordés dans ces films.
                     </p>
-                    <div class="lg:flex lg:justify-between mb-4">
-                        <div>
-                            <img src="/images/actions/cinema-pleine-air-jour-cna.jpg"
-                                data-te-img="/images/actions/cinema-pleine-air-jour-cna.jpg"
-                                class="w-full h-auto max-w-sm rounded-lg shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/30 cursor-zoom-in data-[te-lightbox-disabled]:cursor-auto"
-                                alt="a" />
+                    <div class="md:flex md:justify-between">
+                        <div class="flex w-full md:w-2/3 flex-wrap">
+                            <div class="w-full p-1">
+                                <img src="/images/actions/cinema-pleine-air-jour-cna.jpg"
+                                    data-te-img="/images/actions/cinema-pleine-air-jour-cna.jpg"
+                                    class="block h-full w-full rounded-lg shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/30 cursor-zoom-in data-[te-lightbox-disabled]:cursor-auto"
+                                    alt="a"
+                                    loading="lazy" />
+                            </div>
                         </div>
-                        <div class="max-lg:mt-4">
-                            <img src="/images/actions/cinema-pleine-air-nuit-cna.jpg"
-                                data-te-img="/images/actions/cinema-pleine-air-nuit-cna.jpg"
-                                class="w-full h-auto max-w-sm rounded-lg shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/30 cursor-zoom-in data-[te-lightbox-disabled]:cursor-auto"
-                                alt="b" />
+                        <div class="flex w-full md:w-2/3 flex-wrap">
+                            <div class="w-full p-1">
+                                <img src="/images/actions/cinema-pleine-air-nuit-cna.jpg"
+                                    data-te-img="/images/actions/cinema-pleine-air-nuit-cna.jpg"
+                                    class="block h-full w-full rounded-lg shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/30 cursor-zoom-in data-[te-lightbox-disabled]:cursor-auto"
+                                    alt="b"
+                                    loading="lazy" />
+                            </div>
                         </div>
                     </div>
-                    <div class="lg:flex lg:justify-between">
-                        <div>
-                            <img src="/images/actions/cinema-pleine-air-nuit-cna-2.jpg"
-                                data-te-img="/images/actions/cinema-pleine-air-nuit-cna-2.jpg"
-                                class="w-full h-auto max-w-sm rounded-lg shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/30 cursor-zoom-in data-[te-lightbox-disabled]:cursor-auto"
-                                alt="c" />
+                    <div class="md:flex md:justify-between">
+                        <div class="flex w-full md:w-2/3 flex-wrap">
+                            <div class="w-full p-1">
+                                <img src="/images/actions/cinema-pleine-air-nuit-cna-2.jpg"
+                                    data-te-img="/images/actions/cinema-pleine-air-nuit-cna-2.jpg"
+                                    class="block h-full w-full rounded-lg shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/30 cursor-zoom-in data-[te-lightbox-disabled]:cursor-auto"
+                                    alt="c"
+                                    loading="lazy" />
+                            </div>
                         </div>
-                        <div class="max-lg:mt-4">
-                            <img src="/images/actions/tour-etape-guinee-cna.png"
-                                data-te-img="/images/actions/tour-etape-guinee-cna.png"
-                                class="w-full h-auto max-w-sm rounded-lg shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/30 cursor-zoom-in data-[te-lightbox-disabled]:cursor-auto"
-                                alt="d" />
+                        <div class="flex w-full md:w-2/3 flex-wrap">
+                            <div class="w-full p-1">
+                                <img src="/images/actions/tour-etape-guinee-cna.png"
+                                    data-te-img="/images/actions/tour-etape-guinee-cna.png"
+                                    class="block h-full w-full rounded-lg shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/30 cursor-zoom-in data-[te-lightbox-disabled]:cursor-auto"
+                                    alt="d"
+                                    loading="lazy" />
+                            </div>
                         </div>
                     </div>
                 </div>
