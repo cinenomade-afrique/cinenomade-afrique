@@ -23,9 +23,12 @@ export default defineNuxtConfig({
       },
   },
   postcss: {
-      plugins: {
-        tailwindcss: {},
-        autoprefixer: {},
-      },
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
     },
+  },
+  modules: [
+    '@nuxt/image',
+  ]
 })
