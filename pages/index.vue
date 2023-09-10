@@ -35,8 +35,12 @@
                     </div>
 
                     <div>
-                        <img src="@/assets/images/phototheque/home-cna-picture.jpg"
-                            class="w-full rounded-lg shadow-lg dark:shadow-black/20" loading="lazy" alt="Ciné nomade Afrique" />
+                        <NuxtPicture
+                            format="avif,webp"
+                            src="/images/phototheque/home-cna-picture.jpg"
+                            loading="lazy"
+                            alt="Ciné nomade Afrique"
+                            :imgAttrs="{class: 'w-full rounded-lg shadow-lg dark:shadow-black/20'}" />
                     </div>
                 </div>
             </div>
