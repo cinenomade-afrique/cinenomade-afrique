@@ -8,65 +8,52 @@
     <section>
         <div class="container max-w-screen-xl mx-auto my-14 px-5 md:px-10">
             <h1 class="text-5xl">Nos partenaires</h1>
-            <!-- <div class="flex flex-col lg:flex-row lg:justify-center lg:items-center my-8">
-                <div class="lg:pr-9">
-                    <img src="@/assets/images/phototheque/partenaires-cna-pictures-2.jpg" alt="">
-                </div>
-                <div class="mt-5 lg:mt-0 lg:pr-9">
-                    <p>
-                        Ciné'Nomade Afrique est honoré de travailler en étroite collaboration avec le Ministère de la
-                        Culture en Guinée, un partenaire essentiel qui soutient notre mission et partage notre passion
-                        pour le cinéma africain.
-                        Leur soutien a été crucial pour le succès de nos initiatives.
-                    </p>
-                    <p class="mt-5">Vous aussi rejoignez-nous pour écrire l’aventure avec nous !</p>
-                </div>
-                <div class="mt-5 lg:mt-0">
-                    <img src="@/assets/images/phototheque/partenaires-cna-pictures-1.jpg" alt="">
-                </div>
-            </div> -->
 
-            <div class="my-14 flex flex-wrap">
-                <div class="mb-6 w-full shrink-0 grow-0 basis-auto lg:mb-0 lg:w-6/12 lg:pr-6">
-                    <div class="ripple relative overflow-hidden rounded-lg bg-cover bg-[50%] bg-no-repeat shadow-lg dark:shadow-black/20"
-                        data-te-ripple-init data-te-ripple-color="light">
-                        <NuxtPicture
-                            format="avif,webp"
-                            src="/images/phototheque/partenaires-cna-pictures-2.jpg"
-                            loading="lazy"
-                            alt=""
-                            :imgAttrs="{class: 'w-full'}" />
-                        <a href="#!">
-                            <div
-                                class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100">
+            <div class="container my-14 mx-auto">
+                <div class="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
+                    <div class="flex flex-wrap items-center">
+                        <div class="hidden shrink-0 grow-0 basis-auto lg:flex lg:w-6/12 xl:w-4/12">
+                            <img src="@/assets/images/cna-asset-image-1.png" alt="Trendy Pants and Shoes"
+                            class="w-full rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg" />
+                        </div>
+                        <div class="w-full shrink-0 grow-0 basis-auto lg:w-6/12 xl:w-8/12">
+                            <div class="px-6 py-12 md:px-12">
+                                <h2 class="mb-4 text-2xl font-bold">
+                                    Titre
+                                </h2>
+                                <p class="mb-6">
+                                    Ciné'Nomade Afrique est honoré de travailler en étroite collaboration avec le Ministère de la
+                                    Culture en Guinée, un partenaire essentiel qui soutient notre mission et partage notre passion
+                                    pour le cinéma africain.
+                                    Leur soutien a été crucial pour le succès de nos initiatives.
+                                </p>
+                                <div class="md:flex md:justify-between pb-6">
+                                    <div class="flex w-full md:w-2/3 flex-wrap">
+                                        <div class="w-full p-1">
+                                            <NuxtPicture
+                                                format="avif,webp"
+                                                src="/images/phototheque/partenaires-cna-pictures-2.jpg"
+                                                loading="lazy"
+                                                alt=""
+                                                :imgAttrs="{class: 'block h-full w-full rounded-lg'}" />
+                                        </div>
+                                    </div>
+                                    <div class="flex w-full md:w-2/3 flex-wrap">
+                                        <div class="w-full p-1">
+                                            <NuxtPicture
+                                                format="avif,webp"
+                                                src="/images/phototheque/partenaires-cna-pictures-1.jpg"
+                                                loading="lazy"
+                                                alt=""
+                                                :imgAttrs="{class: 'block h-full w-full rounded-lg'}" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="text-xl font-semibold">
+                                    Vous aussi rejoignez-nous pour écrire l’aventure avec nous !
+                                </p>
                             </div>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="w-full shrink-0 grow-0 basis-auto lg:w-6/12 lg:pl-6">
-                    <p class="mb-6">
-                        Ciné'Nomade Afrique est honoré de travailler en étroite collaboration avec le Ministère de la
-                        Culture en Guinée, un partenaire essentiel qui soutient notre mission et partage notre passion
-                        pour le cinéma africain.
-                        Leur soutien a été crucial pour le succès de nos initiatives.
-                    </p>
-                    <p class="text-xl mb-10 font-semibold">
-                        Vous aussi rejoignez-nous pour écrire l’aventure avec nous !
-                    </p>
-                    <div class="ripple relative overflow-hidden rounded-lg bg-cover bg-[50%] bg-no-repeat shadow-lg dark:shadow-black/20"
-                        data-te-ripple-init data-te-ripple-color="light">
-                        <NuxtPicture
-                            format="avif,webp"
-                            src="/images/phototheque/partenaires-cna-pictures-1.jpg"
-                            loading="lazy"
-                            alt=""
-                            :imgAttrs="{class: 'w-full'}" />
-                        <a href="#!">
-                            <div
-                                class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100">
-                            </div>
-                        </a>
+                        </div>
                     </div>
                 </div>
             </div>
