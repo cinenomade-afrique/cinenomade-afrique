@@ -30,5 +30,9 @@ export default defineNuxtConfig({
   },
   modules: [
     '@nuxt/image',
-  ]
+    '@formkit/nuxt',
+  ],
+  formkit: {
+    autoImport: true
+  }
 })
