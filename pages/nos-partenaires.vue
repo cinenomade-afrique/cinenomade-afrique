@@ -61,6 +61,7 @@
 
         <div class="background-1">
             <div class="container max-w-screen-xl mx-auto px-5 md:px-10 py-14">
+                <h2 class="text-2xl text-center mb-14 font-semibold">Ils nous soutiennent</h2>
                 <div class="flex flex-col lg:flex-row lg:divide-x divide-slate-400">
                     <div class="lg:pr-9">
                         <ul>
