@@ -21,6 +21,7 @@
     "@formkit/nuxt": "^1.2.2",
     "@formkit/themes": "^1.2.2",
     "@nuxt/image": "^1.0.0-rc.1",
+    "nuxt-mail": "^4.0.1",
     "plyr": "^3.7.8",
     "sass": "^1.63.6",
     "tw-elements": "^1.0.0-beta2"

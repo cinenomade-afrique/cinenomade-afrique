@@ -31,6 +31,15 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/image',
     '@formkit/nuxt',
+    ['nuxt-mail', {
+      message: {
+        to: 'sgassama.autobiz@gmail.com',
+      },
+      smtp: {
+        host: "smtp.example.com",
+        port: 465,
+      },
+    }],
   ],
   formkit: {
     autoImport: true
