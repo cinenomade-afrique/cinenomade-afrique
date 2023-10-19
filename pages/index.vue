@@ -46,6 +46,21 @@
             </div>
         </div>
 
+        <div class="background-1 mt-14">
+            <div class="container max-w-screen-xl mx-auto px-5 md:px-10">
+                <div class="flex justify-center py-10">
+                    <div class="flex-col lg:max-w-[45rem]">
+                        <NuxtPicture
+                                    format="avif,webp"
+                                    src="/images/festival/festival-cine-nomade-2023.jpg"
+                                    loading="lazy"
+                                    alt="Festival Ciné Nomade 2023"
+                                    :imgAttrs="{class: 'w-full rounded-lg shadow-lg dark:shadow-black/20'}" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="var--video-container">
             <div class="background-radial-gradient container max-w-screen-xl mx-auto md:px-6">
                 <div class="px-6 py-12 text-center lg:text-left">
@@ -55,11 +70,6 @@
                                 <h1 class="mb-12 text-5xl font-semibold tracking-tight md:text-6xl xl:text-7xl">
                                     Un accès au Cinéma <br /><span class="text-green-cna">pour tous !</span>
                                 </h1>
-                                <p class="text-lg">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    Minima officia consequatur adipisci tenetur repudiandae rerum
-                                    quos.
-                                </p>
                             </div>
                             <div class="mb-12 lg:mb-0">
                                 <Player />

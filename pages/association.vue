@@ -17,12 +17,12 @@
       title: 'Aboubacar-Naby CAMARA',
       subTitle: 'Responsable Admnistratif',
       idLabel: 'team2',
-      text: "Aboubacar-Naby CAMARA est un artiste plasticien, réalisateur, médiateur culturel en collectivité et acteur associatif culturel franco-guinéen. Diplômé de l'École des Arts de l'Université Paris 1 Panthéon Sorbonne, il a obtenu une Licence et un Master en Art et Images du Vivant. En tant qu'artiste, Aboubacar-Naby explore divers médiums, tels que la photographie, la vidéo, l'installation et la sculpture. Il a co-réalisé le documentaire 'Welcome to Conakry' avec Aïcha Diaby pour promouvoir la capitale guinéenne. Son premier court-métrage 'Cum Laude' avec Bamar Kane, produit par Tribudom est sorti en 2023"
+      text: "Aboubacar-Naby Camara est un artiste plasticien, réalisateur et médiateur culturel franco-guinéen. Diplômé en art et images du vivant de l'École des Arts de l'Université Paris 1 Panthéon Sorbonne, il explore divers médiums tels que la photo, la vidéo et l'installation. Il a co-réalisé le documentaire 'Welcome to Conakry' et son premier court-métrage 'Cum Laude' est sorti en 2023. C'est également un acteur associatif culturel et le cofondateur de l'association Ciné'nomade Afrique."
     },
     {
       id: 3,
       image: 'sidney-cadot-responsable-programmation.png',
-      title: 'Sidney Cadot',
+      title: 'Sidney Cadot-Sambosi',
       subTitle: 'Responsable de la programation',
       idLabel: 'team3',
       text: "Sidney CADOT-SAMBOSI est comédienne et critique de cinéma. Elle investit le champ de la création cinématographique et théâtral à travers ses rencontres (Dieudonné Niangouna, Jean-Yves Ruf, Jean-Pierre Bekolo, Nelson Makengo entre autres). De ses études de philosophie à Paris, elle retiendra cette expression de Gilles Deleuze qui préconise 'd'avoir toujours un petit morceau d'une nouvelle terre'."
@@ -33,7 +33,7 @@
       title: 'Anné Cissé',
       subTitle: 'Résponsable dévelopement',
       idLabel: 'team4',
-      text: "Diplômée du Celsa (une école française de communication et de journalisme qui fait partie de la Sorbonne), Anne a travaillé plusieurs années chez Google Arts & Culture en produisant des expériences numériques pour l'écosystème culturel (y compris le MET, le J. Paul Getty Museum, Carnegie Hall...) tout en affinant ses outils en tant que scénariste et réalisatrice. De 2016 à 2020, elle a écrit et réalisé 5 courts métrages pendant son temps libre. En 2018, elle a quitté Google pendant un an pour aider à créer et écrire VAMPIRES, une série originale Netflix. Elle a également rejoint LUPIN en tant que scénariste pour la saison 1."
+      text: "Scénariste et réalisatrice franco-guinéenne, Anne Cissé s'est distinguée en co-réalisant le documentaire Salam, sélectionné à Cannes en 2022. Au sein de productions Netflix Original, elle a participé aux scripts de séries à succès comme Vampires et Lupin."
     },
     {
       id: 5,
@@ -62,23 +62,12 @@
                                 <h2 class="mb-4 text-2xl font-bold">
                                     Notre histoire
                                 </h2>
-                                <p class="mb-6 flex items-center font-bold uppercase text-danger dark:text-danger-500">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-                                    stroke="currentColor" class="mr-2 h-5 w-5">
-                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                        d="M15.362 5.214A8.252 8.252 0 0112 21 8.25 8.25 0 016.038 7.048 8.287 8.287 0 009 9.6a8.983 8.983 0 013.361-6.867 8.21 8.21 0 003 2.48z" />
-                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                        d="M12 18a3.75 3.75 0 00.495-7.467 5.99 5.99 0 00-1.925 3.546 5.974 5.974 0 01-2.133-1A3.75 3.75 0 0012 18z" />
-                                    </svg>
-                                    Sous titre
+                                <p class="mb-6">
+                                    Ciné'Nomade Afrique est une association créée en 2022. Notre mission est de promouvoir le cinéma africain et de fournir une formation de qualité en création audiovisuelle, non seulement en Afrique, mais aussi à l'international.
+                                    Nous nous engageons à donner aux jeunes et aux femmes de Guinée les outils et les opportunités pour s'exprimer à travers l'art du cinéma, et à rendre le cinéma accessible à tous.
                                 </p>
                                 <p class="mb-6">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam dolores assumenda dolor nihil nesciunt repudiandae?
-                                    Temporibus commodi blanditiis repudiandae omnis tempore quas, illum debitis ducimus quibusdam est tenetur laboriosam quia!
-                                </p>
-                                <p class="mb-6">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam dolores assumenda dolor nihil nesciunt repudiandae?
-                                    Temporibus commodi blanditiis repudiandae omnis tempore quas, illum debitis ducimus quibusdam est tenetur laboriosam quia!
+                                    Notre équipe internationale est composée de réalisatrices de réalisateurs et de professionnels du milieu associatif de la gestion de projet socioculturel et événementiel. Nous travaillons également avec de nombreux bénévoles. dotés d’une bonne connaissance du projet, ils ont su nous aider dans la logistique, la mobilisation et l’animation.
                                 </p>
                             </div>
                         </div>
