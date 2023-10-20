@@ -63,7 +63,7 @@
                     <ul class="text-sm">
                         <li class="mb-4"><NuxtLink to="/association">L'Association</NuxtLink></li>
                         <li class="mb-4"><NuxtLink to="/nos-actions">Nos Actions</NuxtLink></li>
-                        <li class="mb-4"><NuxtLink to="/festival">Le Festival</NuxtLink></li>
+                        <li class="mb-4"><NuxtLink to="/formation">La Formation</NuxtLink></li>
                         <li class="mb-4"><NuxtLink to="/nos-partenaires">Nos Partenaires</NuxtLink></li>
                         <li class="mb-4"><NuxtLink to="/contact">Nous Contactez</NuxtLink></li>
                     </ul>
@@ -172,7 +172,7 @@
                 <ul class="text-sm">
                     <li class="mb-4"><NuxtLink to="/association">L'Association</NuxtLink></li>
                     <li class="mb-4"><NuxtLink to="/nos-actions">Nos Actions</NuxtLink></li>
-                    <li class="mb-4"><NuxtLink to="/festival">Le Festival</NuxtLink></li>
+                    <li class="mb-4"><NuxtLink to="/formation">La Formation</NuxtLink></li>
                     <li class="mb-4"><NuxtLink to="/nos-partenaires">Nos Partenaires</NuxtLink></li>
                     <li class="mb-4"><NuxtLink to="/contact">Nous Contactez</NuxtLink></li>
                 </ul>

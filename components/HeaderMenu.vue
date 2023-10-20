@@ -59,7 +59,7 @@
                         <NuxtLink class="lg:py-2.5 lg:px-5" to="/nos-actions"><span>Nos actions</span></NuxtLink>
                     </li>
                     <li class="lg:inline-block">
-                        <NuxtLink class="lg:py-2.5 lg:px-5" to="/festival"><span>Le Festival</span></NuxtLink>
+                        <NuxtLink class="lg:py-2.5 lg:px-5" to="/formation"><span>La Formation</span></NuxtLink>
                     </li>
                     <li class="lg:inline-block">
                         <NuxtLink class="lg:py-2.5 lg:px-5" to="/nos-partenaires"><span>Nos partenaires</span></NuxtLink>
