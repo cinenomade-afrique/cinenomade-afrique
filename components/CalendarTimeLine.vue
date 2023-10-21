@@ -4,7 +4,7 @@
 
 <template>
     <div>
-        <h3 class="mb-6 ml-3 text-2xl font-bold text-neutral-700 dark:text-neutral-300">
+        <h3 class="mb-6 ml-3 text-2xl font-bold">
             Au programme, 5 temps forts :
         </h3>
 
