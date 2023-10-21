@@ -20,6 +20,7 @@
     "@formkit/icons": "^1.2.2",
     "@formkit/nuxt": "^1.2.2",
     "@formkit/themes": "^1.2.2",
+    "@glidejs/glide": "^3.6.0",
     "@nuxt/image": "^1.0.0-rc.1",
     "nuxt-mail": "^4.0.1",
     "plyr": "^3.7.8",
