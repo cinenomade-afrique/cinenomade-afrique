@@ -49,7 +49,7 @@
         <div class="background-1 mt-14">
             <div class="container max-w-screen-xl mx-auto px-5 md:px-10">
                 <div class="flex justify-center py-10">
-                    <div class="flex-col lg:max-w-[45rem]">
+                    <div class="flex-col lg:max-w-[35rem]">
                         <NuxtPicture
                                     format="avif,webp"
                                     src="/images/festival/festival-cine-nomade-2023.jpg"
