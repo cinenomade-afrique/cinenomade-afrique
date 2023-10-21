@@ -22,23 +22,23 @@
 
     const sliderItemData = ref([{
         id: 1,
-        text: '1'
+        image: 'cinema-pleine-air-jour-cna.jpg'
     },
     {
         id: 2,
-        text: '2'
+        image: 'cinema-pleine-air-nuit-cna-2.jpg'
     },
     {
         id: 3,
-        text: '3'
+        image: 'cinema-pleine-air-nuit-cna.jpg'
     },
     {
         id: 4,
-        text: '4'
+        image: 'tour-etape-guinee-cna.png'
     },
     {
         id: 5,
-        text: '5'
+        image: 'cinema-pleine-air-jour-cna.jpg'
     },
 ])
 </script>
@@ -50,7 +50,7 @@
                 <ul class="glide__slides">
                     <SliderItem v-for="sliderItem in sliderItemData"
                         :key="sliderItem.id"
-                        :text="sliderItem.text"
+                        :image="sliderItem.image"
                      />
                 </ul>
             </div>

@@ -3,14 +3,18 @@
         name: "SliderItem",
         props: {
             id: Number,
-            text: String
+            image: String
         }
     };
 </script>
 
 <template>
     <li class="glide__slide">
-        {{ text  }}
+
+        <NuxtPicture
+              format="avif,webp"
+              v-bind:src="'/images/actions/' + image"
+              loading="lazy" />
     </li>
 </template>
 
