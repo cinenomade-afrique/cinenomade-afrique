@@ -59,6 +59,8 @@
             </div>
         </div>
 
+        <Slider />
+
         <div class="background-1">
             <div class="container max-w-screen-xl mx-auto px-5 md:px-10 py-14">
                 <h2 class="text-2xl text-center mb-14 font-semibold">Ils nous soutiennent</h2>
@@ -125,12 +127,6 @@
                 </div>
             </div>
         </div>
-
-        <Slider />
-
-        <!-- <div class="container max-w-screen-xl mx-auto px-5 md:px-10 py-14">
-            <h2 class="text-5xl">Ils nous soutiennent</h2>
-        </div> -->
 
     </section>
 </template>
