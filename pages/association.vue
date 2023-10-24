@@ -77,7 +77,7 @@
         </div>
         <div class="background-1 mt-14">
             <div class="container max-w-screen-xl mx-auto px-5 md:px-10">
-                <h2 class="text-2xl text-center pt-14">L'Équipe de Ciné'Nomade Afrique</h2>
+                <h2 class="text-2xl text-left lg:text-center font-bold pt-14">L'Équipe de Ciné'Nomade Afrique</h2>
                 <div class="lg:max-w-[60rem] m-auto">
                     <div class="grid md:grid-cols-2 md:gap-3 lg:grid-cols-3 lg:gap-3 justify-center mt-14">
                         <CardModal v-for="cardModal in cardModalData"

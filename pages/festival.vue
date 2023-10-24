@@ -14,11 +14,11 @@
             <div class="flex flex-wrap items-center">
               <div class="hidden shrink-0 grow-0 basis-auto lg:flex lg:w-6/12 xl:w-4/12">
                   <NuxtPicture
-                            format="avif,webp"
-                            src="/images/festival/festival-cine-nomade-2023.jpg"
-                            loading="lazy"
-                            alt="Festival Ciné Nomade 2023"
-                            :imgAttrs="{class: 'w-full rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg'}" />
+                    format="avif,webp"
+                    src="/images/festival/festival-cine-nomade-2023.jpg"
+                    loading="lazy"
+                    alt="Festival Ciné Nomade 2023"
+                    :imgAttrs="{class: 'w-full rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg'}" />
               </div>
               <div class="w-full shrink-0 grow-0 basis-auto lg:w-6/12 xl:w-8/12">
                 <div class="px-6 py-12 md:px-12">
@@ -44,7 +44,8 @@
 
     <div class="background-1">
       <div class="container max-w-screen-xl mx-auto px-5 md:px-10">
-        <div class="flex flex-col lg:flex-row justify-center py-10">
+        <h3 class="mb-6 ml-3 text-left lg:text-center text-2xl font-bold pt-14">Au programme, 5 temps forts :</h3>
+        <div class="flex flex-col lg:flex-row py-10">
           <CalendarTimeLine />
           <div class="flex flex-col lg:max-w-[40rem] lg:px-6 align-center justify-around pt-4 lg:pt-0">
             <NuxtPicture
@@ -65,13 +66,11 @@
     </div>
 
     <div class="container max-w-screen-xl mx-auto px-5 md:px-10">
-      <div class="flex justify-center mt-10">
-        <div class="flex-col lg:max-w-[50rem]">
-          <h2 class="mb-4 text-2xl font-bold">
-            Chronologie de nos actions
-          </h2>
-          <TimeLine />
-        </div>
+      <h2 class="mb-4 text-left lg:text-center text-2xl font-bold pt-14 pb-4">
+        Chronologie de nos actions
+      </h2>
+      <div class="flex-col lg:max-w-[50rem]">
+        <TimeLine />
       </div>
     </div>
   </section>

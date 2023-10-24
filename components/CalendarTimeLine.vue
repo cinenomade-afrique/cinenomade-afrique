@@ -4,9 +4,6 @@
 
 <template>
     <div>
-        <h3 class="mb-6 ml-3 text-2xl font-bold">
-            Au programme, 5 temps forts :
-        </h3>
 
         <ol class="border-l-2 border-green-800">
             <!--First item-->

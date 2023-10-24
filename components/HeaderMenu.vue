@@ -1,43 +1,42 @@
-<script>
-    export default {
-        mounted() {
-            // STICKY MENU
-            window.onscroll = () => {
-                const header = document.querySelector('.var--header-container');
-                const sticky = header.offsetTop;
+<script setup>
+  onMounted(() => {
+      // STICKY MENU
+      window.onscroll = () => {
+          const header = document.querySelector('.var--header-container');
+          const sticky = header.offsetTop;
 
-                const stickyMenu = () => {
-                    window.scrollY > sticky
-                    ? header.classList.add("sticky")
-                    : header.classList.remove("sticky")
-                }
+          const stickyMenu = () => {
+              window.scrollY > sticky
+              ? header.classList.add("sticky")
+              : header.classList.remove("sticky")
+          }
 
-                return stickyMenu()
-            }
+          return stickyMenu()
+      }
 
-            // MENU MOBILE
-            const menuResponsive = () => {
-                const hamburger = {
-                    menu: document.querySelector('.var--header-menu'),
-                    expanded: document.querySelector('.var--header-menu-toggle'),
+      // MENU MOBILE
+      const menuResponsive = () => {
+          const hamburger = {
+              menu: document.querySelector('.var--header-menu'),
+              expanded: document.querySelector('.var--header-menu-toggle'),
 
-                    toggleMenuExpanded:  (e) => {
-                        e.preventDefault();
-                        hamburger.expanded.classList.toggle("var--header-menu-open");
-                    },
+              toggleMenuExpanded:  (e) => {
+                  e.preventDefault();
+                  hamburger.expanded.classList.toggle("var--header-menu-open");
+              },
 
-                    toggleMenu:  (e) => {
-                        e.preventDefault();
-                        hamburger.menu.classList.toggle("active");
-                    }
-                }
+              toggleMenu:  (e) => {
+                  e.preventDefault();
+                  hamburger.menu.classList.toggle("active");
+              }
+          }
 
-                hamburger.expanded.addEventListener("click", (e) => { hamburger.toggleMenuExpanded(e) });
-                hamburger.expanded.addEventListener("click", (e) => { hamburger.toggleMenu(e) });
-            }
-            menuResponsive();
-        }
-    }
+          hamburger.expanded.addEventListener("click", (e) => { hamburger.toggleMenuExpanded(e) });
+          hamburger.expanded.addEventListener("click", (e) => { hamburger.toggleMenu(e) });
+      }
+
+      menuResponsive();
+  })
 </script>
 
 <template>
@@ -62,7 +61,7 @@
                         <NuxtLink class="lg:py-2.5 lg:px-5" to="/formation"><span>La Formation</span></NuxtLink>
                     </li>
                     <li class="lg:inline-block">
-                        <NuxtLink class="lg:py-2.5 lg:px-5" to="/nos-partenaires"><span>Nos partenaires</span></NuxtLink>
+                        <NuxtLink class="lg:py-2.5 lg:px-5" to="/nos-partenaires"><span>Nos Partenaires</span></NuxtLink>
                     </li>
                     <li class="lg:inline-block">
                         <NuxtLink class="lg:py-2.5 lg:px-5" to="/contact"><span>Contact</span></NuxtLink>

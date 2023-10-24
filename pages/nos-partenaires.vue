@@ -7,7 +7,7 @@
 <template>
     <section>
         <div class="container max-w-screen-xl mx-auto my-14 px-5 md:px-10">
-            <h1 class="text-5xl">Nos partenaires</h1>
+            <h1 class="text-5xl">Nos Partenaires</h1>
 
             <div class="container my-14 mx-auto">
                 <div class="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
@@ -60,7 +60,7 @@
 
         <div class="background-1">
             <div class="container max-w-screen-xl mx-auto px-5 md:px-10 py-14">
-                <h2 class="text-2xl text-center mb-14 font-semibold">Vous aussi rejoignez-nous pour écrire l’aventure avec nous !</h2>
+                <h2 class="text-2xl text-left lg:text-center mb-14 font-semibold">Vous aussi rejoignez-nous pour écrire l’aventure avec nous !</h2>
                 <div class="flex flex-col lg:flex-row lg:divide-x divide-slate-400">
                     <div class="lg:pr-9 lg:w-2/4">
                         <ul>
