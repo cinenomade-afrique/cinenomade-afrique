@@ -19,7 +19,7 @@
                         <div class="w-full shrink-0 grow-0 basis-auto lg:w-6/12 xl:w-8/12">
                             <div class="px-6 py-12 md:px-12">
                                 <h2 class="mb-4 text-2xl font-bold">
-                                    Titre
+                                    Ils nous soutiennent
                                 </h2>
                                 <p class="mb-6">
                                     Ciné'Nomade Afrique est honoré de travailler en étroite collaboration avec le Ministère de la
@@ -49,9 +49,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                <p class="text-xl font-semibold">
-                                    Vous aussi rejoignez-nous pour écrire l’aventure avec nous !
-                                </p>
                             </div>
                         </div>
                     </div>
@@ -63,9 +60,9 @@
 
         <div class="background-1">
             <div class="container max-w-screen-xl mx-auto px-5 md:px-10 py-14">
-                <h2 class="text-2xl text-center mb-14 font-semibold">Ils nous soutiennent</h2>
+                <h2 class="text-2xl text-center mb-14 font-semibold">Vous aussi rejoignez-nous pour écrire l’aventure avec nous !</h2>
                 <div class="flex flex-col lg:flex-row lg:divide-x divide-slate-400">
-                    <div class="lg:pr-9">
+                    <div class="lg:pr-9 lg:w-2/4">
                         <ul>
                             <li class="mb-3">
                                 <span class="font-bold">Starter Production :</span><br>
@@ -88,14 +85,15 @@
                                 Partenaire logistique.
                             </li>
                             <li class="mb-3">
-                                <span class="font-bold">Office National du Tourisme de Guinée (ONT) :</span><br>
-                                Ils nous ont facilité dans l’aspect opérationnel et logistique en nous facilitant
-                                l'obtention d’un véhicule et en mettant à notre
-                                disposition ses agents.
+                                <span class="font-bold">Atelier de l’usine à film amateurs de Michel Gondry :</span><br>
+                                L'Association de l'Usine de films amateurs est une structure imaginée par le réalisateur français Michel Gondry,
+                                elle promeut l'accès à la culture cinématographique via des ateliers itinérants de réalisation de films.
+                                Depuis 2011, elle a permis à 60 000 participants dans 13 pays de réaliser 4500 films. Pour le cinéma ambulant,
+                                l'Usine propose des ateliers nomades utilisant les décors locaux, afin de favoriser l'expression par l'image des populations rurales.
                             </li>
                         </ul>
                     </div>
-                    <div class="lg:pl-5 mt-5 lg:mt-0">
+                    <div class="lg:pl-5 mt-5 lg:mt-0 lg:w-2/4">
                         <ul>
                             <li class="mb-3">
                                 <span class="font-bold">Centre Culturel Franco-Guinéen / Institut Français :</span><br>
@@ -121,6 +119,12 @@
                                 Financé par l’Union européenne et mis en oeuvre par Enabel cette initiative vise à
                                 renforcer
                                 les capacités des entrepreneurs culturels de Guinée.
+                            </li>
+                            <li class="mb-3">
+                                <span class="font-bold">Office National du Tourisme de Guinée (ONT) :</span><br>
+                                Ils nous ont facilité dans l’aspect opérationnel et logistique en nous facilitant
+                                l'obtention d’un véhicule et en mettant à notre
+                                disposition ses agents.
                             </li>
                         </ul>
                     </div>
