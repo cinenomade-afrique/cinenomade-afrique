@@ -166,7 +166,10 @@
     <div class="glide pt-4 pb-14">
         <div class="glide__track" data-glide-el="track">
             <ul class="glide__slides">
-                <SliderItem v-for="sliderItem in sliderItemData" :key="sliderItem.id" :image="sliderItem.image" />
+                <SliderItem
+                    v-for="sliderItem in sliderItemData"
+                    :key="sliderItem.id"
+                    :image="sliderItem.image" />
             </ul>
         </div>
     </div>

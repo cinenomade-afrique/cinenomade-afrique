@@ -87,7 +87,7 @@
                                 Né d’un partenariat entre Ciné Nomade Afrique et la Sabou Tech, Sabou Ciné’ Talent est un programme d’un an qui permet à 12 jeunes cinéastes guinéen.ne.s d’être formé.es à Conakry, en Guinée,
                                 par des professionnels du cinéma et de l’audiovisuel. L’objectif de la formation est de réaliser un court-métrage dans des conditions professionnelles. Anne Cissé, réalisatrice et scénariste en France et aux Etats-Unis, est la marraine de ce programme.
                             </p>
-                            <p class="text-orange-cna">Où aura lieu le programme Sabou Ciné’ Talents 2023 ?</p>
+                            <p class="text-orange-cna font-semibold">Où aura lieu le programme Sabou Ciné’ Talents 2023 ?</p>
                             <p>Sabou Ciné Talents se tiendra dans les locaux de la Saboutech à Dixinn, Conakry, Guinée.</p>
                         </div>
                     </div>
@@ -115,7 +115,7 @@
                             <p class="mb-4">
                                 Le programme s’étalera sur l’année 2024 et sera constitué de plusieurs modules de formation. Vous devrez impérativement vous rendre disponible pour chacun des modules de formation. Un programme détaillé vous sera envoyé en cas de sélection. 
                             </p>
-                            <p class="text-orange-cna">Est-ce que le programme Sabou Ciné’ Talents est gratuit ?</p>
+                            <p class="text-orange-cna font-semibold">Est-ce que le programme Sabou Ciné’ Talents est gratuit ?</p>
                             <p>Les modules de formation Sabou Ciné Talents sont entièrement pris en charge. Seuls les frais de vie à Conakry sont à la charge des participants.</p>
                         </div>
                     </div>
