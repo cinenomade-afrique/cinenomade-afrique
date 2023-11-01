@@ -25,6 +25,7 @@
     "nuxt-mail": "^4.0.1",
     "plyr": "^3.7.8",
     "sass": "^1.63.6",
-    "tw-elements": "^1.0.0-beta2"
+    "tw-elements": "^1.0.0-beta2",
+    "vue-easy-lightbox": "^1.16.0"
   }
 }
