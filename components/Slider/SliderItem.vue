@@ -13,7 +13,8 @@
 
         <NuxtPicture
               format="avif,webp"
-              v-bind:src="'/images/partenaires/' + image" />
+              v-bind:src="'/images/partenaires/' + image + '.jpg'"
+              :alt="`${image}`" />
     </li>
 </template>
 

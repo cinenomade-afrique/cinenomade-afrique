@@ -33,131 +33,131 @@
 
     const sliderItemData = ref([{
             id: 1,
-            image: 'logo-RG.jpg'
+            image: 'logo-RG'
         },
         {
             id: 2,
-            image: 'logo-acces-culture.jpg'
+            image: 'logo-acces-culture'
         },
         {
             id: 3,
-            image: 'logo-afd.jpg'
+            image: 'logo-afd'
         },
         {
             id: 4,
-            image: 'logo-air-france.jpg'
+            image: 'logo-air-france'
         },
         {
             id: 5,
-            image: 'logo-architecture-by-issa-event.jpg'
+            image: 'logo-architecture-by-issa-event'
         },
         {
             id: 6,
-            image: 'logo-branding-guinee.jpg'
+            image: 'logo-branding-guinee'
         },
         {
             id: 7,
-            image: 'logo-brut.jpg'
+            image: 'logo-brut'
         },
         {
             id: 8,
-            image: 'logo-canal-plus.jpg'
+            image: 'logo-canal-plus'
         },
         {
             id: 9,
-            image: 'logo-centre-culturel-franco-guineen.jpg'
+            image: 'logo-centre-culturel-franco-guineen'
         },
         {
             id: 10,
-            image: 'logo-espace-tv.jpg'
+            image: 'logo-espace-tv'
         },
         {
             id: 11,
-            image: 'logo-f24.jpg'
+            image: 'logo-f24'
         },
         {
             id: 12,
-            image: 'logo-fondation-orange.jpg'
+            image: 'logo-fondation-orange'
         },
         {
             id: 13,
-            image: 'logo-girl-support-girls.jpg'
+            image: 'logo-girl-support-girls'
         },
         {
             id: 14,
-            image: 'logo-harmattan-guinee.jpg'
+            image: 'logo-harmattan-guinee'
         },
         {
             id: 15,
-            image: 'logo-institut-francais.jpg'
+            image: 'logo-institut-francais'
         },
         {
             id: 16,
-            image: 'logo-mansa.jpg'
+            image: 'logo-mansa'
         },
         {
             id: 17,
-            image: 'logo-ministere-culture-france.jpg'
+            image: 'logo-ministere-culture-france'
         },
         {
             id: 18,
-            image: 'logo-office-national-tourisme.jpg'
+            image: 'logo-office-national-tourisme'
         },
         {
             id: 19,
-            image: 'logo-palabres-consulting.jpg'
+            image: 'logo-palabres-consulting'
         },
         {
             id: 20,
-            image: 'logo-palm-camayenne.jpg'
+            image: 'logo-palm-camayenne'
         },
         {
             id: 21,
-            image: 'logo-phoenix-vision.jpg'
+            image: 'logo-phoenix-vision'
         },
         {
             id: 22,
-            image: 'logo-pnud.jpg'
+            image: 'logo-pnud'
         },
         {
             id: 23,
-            image: 'logo-raj-cie.jpg'
+            image: 'logo-raj-cie'
         },
         {
             id: 24,
-            image: 'logo-reporter-horizon.jpg'
+            image: 'logo-reporter-horizon'
         },
         {
             id: 25,
-            image: 'logo-rtg.jpg'
+            image: 'logo-rtg'
         },
         {
             id: 26,
-            image: 'logo-sabou-cine-talents.jpg'
+            image: 'logo-sabou-cine-talents'
         },
         {
             id: 27,
-            image: 'logo-saboutech.jpg'
+            image: 'logo-saboutech'
         },
         {
             id: 28,
-            image: 'logo-sakom.jpg'
+            image: 'logo-sakom'
         },
         {
             id: 29,
-            image: 'logo-sobragui.jpg'
+            image: 'logo-sobragui'
         },
         {
             id: 30,
-            image: 'logo-tv5-monde.jpg'
+            image: 'logo-tv5-monde'
         },
         {
             id: 31,
-            image: 'logo-upendo.jpg'
+            image: 'logo-upendo'
         },
         {
             id: 32,
-            image: 'logo-usine-fil-amateur.jpg'
+            image: 'logo-usine-fil-amateur'
         }
     ])
 </script>
@@ -169,7 +169,8 @@
                 <SliderItem
                     v-for="sliderItem in sliderItemData"
                     :key="sliderItem.id"
-                    :image="sliderItem.image" />
+                    :image="sliderItem.image"
+                    :alt="sliderItem.image" />
             </ul>
         </div>
     </div>

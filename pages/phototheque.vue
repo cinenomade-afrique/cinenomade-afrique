@@ -89,13 +89,18 @@
 
             <div class="container my-14 mx-auto">
                 <div class="-m-1 flex flex-wrap md:-m-2">
-                    <div v-for="(img, idx) in imgs" :key="idx" class="flex w-1/2 md:w-1/3 xl:w-1/4 flex-wrap" @click="() => show(idx)">
+                    <div
+                        v-for="(img, idx) in imgs"
+                        :key="idx"
+                        class="flex w-1/2 md:w-1/3 xl:w-1/4 flex-wrap"
+                        @click="() => show(idx)">
                         <div class="w-full p-1 md:p-2">
                             <NuxtImg
                                 :src="img.src ? img.src : img"
                                 format="webp"
                                 class="block h-full w-full rounded-lg object-cover object-center shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/30 cursor-zoom-in"
-                                loading="lazy" />
+                                loading="lazy"
+                                alt="Ciné Nomade Afrique" />
                         </div>
                     </div>
                 </div>

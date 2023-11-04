@@ -71,7 +71,7 @@
                                     format="avif,webp"
                                     src="/images/actions/cinema-pleine-air-jour-cna.jpg"
                                     loading="lazy"
-                                    alt="a"
+                                    alt="cinéma pleine air de jour - ciné nomade afrique"
                                     :imgAttrs="{
                                         class: 'block h-full w-full rounded-lg shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/30 cursor-zoom-in data-[te-lightbox-disabled]:cursor-auto',
                                         'data-te-img':'/images/actions/cinema-pleine-air-jour-cna.jpg'}" />
@@ -83,7 +83,7 @@
                                     format="avif,webp"
                                     src="/images/actions/cinema-pleine-air-nuit-cna.jpg"
                                     loading="lazy"
-                                    alt="b"
+                                    alt="cinéma pleine air de nuit - ciné nomade afrique"
                                     :imgAttrs="{
                                         class: 'block h-full w-full rounded-lg shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/30 cursor-zoom-in data-[te-lightbox-disabled]:cursor-auto',
                                         'data-te-img':'/images/actions/cinema-pleine-air-nuit-cna.jpg'}" />
@@ -97,7 +97,7 @@
                                     format="avif,webp"
                                     src="/images/actions/cinema-pleine-air-nuit-cna-2.jpg"
                                     loading="lazy"
-                                    alt="c"
+                                    alt="cinéma pleine air de nuit 2 - ciné nomade afrique"
                                     :imgAttrs="{
                                         class: 'block h-full w-full rounded-lg shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/30 cursor-zoom-in data-[te-lightbox-disabled]:cursor-auto',
                                         'data-te-img':'/images/actions/cinema-pleine-air-nuit-cna-2.jpg'}" />
@@ -109,7 +109,7 @@
                                     format="avif,webp"
                                     src="/images/actions/tour-etape-guinee-cna.png"
                                     loading="lazy"
-                                    alt="d"
+                                    alt="tour étape guinée - ciné nomade afrique"
                                     :imgAttrs="{
                                         class: 'block h-full w-full rounded-lg shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/30 cursor-zoom-in data-[te-lightbox-disabled]:cursor-auto',
                                         'data-te-img':'/images/actions/tour-etape-guinee-cna.png'}" />
