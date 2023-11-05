@@ -15,8 +15,8 @@
 
         mail.send({
             from: data.email,
-            subject: 'Contact from message',
-            text: data.message
+            subject: 'Formulaire de contact du site Ciné Nomade Afrique : ' + data.name,
+            text: 'Vous avez reçu un nouveau message depuis votre site de la part de : ' + data.name + '<br>' + 'Email: ' + data.email + '<br>' + 'Tel: ' + data.phone + '<br>' + 'Message: ' + data.message
         })
     }
 </script>
