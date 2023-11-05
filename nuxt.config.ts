@@ -36,8 +36,11 @@ export default defineNuxtConfig({
         to: 'sgassama.autobiz@gmail.com',
       },
       smtp: {
-        host: "smtp.example.com",
-        port: 465,
+        service: 'gmail',
+        auth: {
+          user: 'sgassama.autobiz@gmail.com',
+          pass: 'ornk bnrh pbkt otrp',
+        },
       },
     }],
   ],

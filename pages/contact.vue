@@ -7,7 +7,11 @@
 
 
     function handleSubmit(data) {
-        console.log(data);
+        console.log("data ==>", data);
+        console.log("data name ==>", data.name);
+        console.log("data email ==>", data.email);
+        console.log("data tel ==>", data.phone);
+        console.log("data text ==>", data.message);
 
         mail.send({
             from: data.email,
