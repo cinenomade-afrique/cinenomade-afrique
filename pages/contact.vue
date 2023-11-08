@@ -1,6 +1,6 @@
 <script setup>
     useHead({
-        title: "Cine Nomade Afrique - Nous contacter",
+        title: "Cine Nomade Afrique - Nous contactez",
     });
 
     const mail = useMail();
@@ -35,13 +35,13 @@
         <h1 class="text-5xl mt-14">Contact</h1>
         <div class="mt-14">
             <FormKit id="cnaForm" type="form" @submit="handleSubmit">
-                <FormKit type="text" name="name" id="name" label="Nom" help="Votre nom" validation="required" />
-                <FormKit name="email" label="Email" help="Votre email" validation="required|email" />
-                <FormKit type="tel" label="Téléphone" placeholder="xxxxxxxxxx" help="Votre téléphone" name="phone"
-                    validation="required|matches:/^[0-9]{2}[0-9]{2}[0-9]{2}[0-9]{2}[0-9]{2}$/"
-                    :validation-messages="{matches: 'Le numéro de téléphone doit être au format xxxxxxxxxx',}"
+                <FormKit type="text" name="name" id="name" label="Nom" help="Votre nom" validation="required" prefix-icon="avatarMan" />
+                <FormKit name="email" label="Email" help="Votre email" validation="required|email" prefix-icon="email" />
+                <FormKit type="tel" label="Téléphone" help="Votre téléphone" name="phone" prefix-icon="telephone"
+                    validation="required|matches:/^\+?[0-9]+$/"
+                    :validation-messages="{matches: 'Le numéro de téléphone doit être au bon format',}"
                     validation-visibility="dirty" />
-                <FormKit type="textarea" label="Message" rows="10" help="Votre message " name="message" />
+                <FormKit type="textarea" label="Message" rows="10" help="Votre message " name="message" prefix-icon="textarea" />
             </FormKit>
             <div class="mb-4 rounded-lg bg-success-100 px-6 py-5 text-base text-success-700" role="alert" v-if="submitted">
                 Votre message a été envoyé !
