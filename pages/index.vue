@@ -22,7 +22,7 @@
                         <p class="mb-8 pb-2 text-neutral-500 dark:text-neutral-300 lg:pb-0 text-xl">
                             Ciné’nomade Afrique est une organisation à but non lucratif créée en 2021 par
                             deux réalisateurs franco-guinéens, Aïssa DIABY et Aboubacar Naby Camara. L’association
-                            a pour objectif de favoriser un accès à la culture pour tous, à travers un féstival et d’un
+                            à pour objectif de favoriser un accès à la culture pour tous, à travers un féstival et d’un
                             cinéma ambulant en Afrique.
                         </p>
 

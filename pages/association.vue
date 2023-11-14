@@ -9,7 +9,7 @@
             title: 'Aïssa DIABY',
             subTitle: 'Présidente de l’Association & Coordinatrice générale',
             idLabel: 'team1',
-            text: "Aïssa Diaby est une réalisatrice et scénariste Franco-guinéenne de 29 ans, diplômée d’un Master d’études Internationales et Européennes à Sciences Po Grenoble. Aïssa a occupé plusieurs postes au sein des institutions internationales et de la fonction d'État en France. Elle a notamment travaillé en République de Guinée en tant que Vice commissaire en charge du programme de l’UNESCO “Conakry World Book Capital 2017”, puis elle a été nommée Responsable de la salle de cinéma CanalOlympia Kaloum avant de retourner en France et occuper la fonction de correspondante communication et chargée de mission au Ministère de l’intérieur à Paris. Parallèlement à sa carrière professionnelle Aïssa s’est formée au métier de la création audiovisuelle et cinématographique."
+            text: "Aïssa Diaby est une réalisatrice et scénariste franco-guinéenne de 29 ans. Diplômée en études internationales, elle a notamment travaillé comme responsable de la salle de cinéma CanalOlympia Kaloum en Guinée. Parallèlement à sa carrière professionnelle, Aïssa s'est formée au métier de la création audiovisuelle et cinématographique. Elle est la fondatrice de l'association Ciné'nomade Afrique."
         },
         {
             id: 2,
@@ -33,7 +33,7 @@
             title: 'Anné Cissé',
             subTitle: 'Résponsable dévelopement',
             idLabel: 'team4',
-            text: "Scénariste et réalisatrice franco-guinéenne, Anne Cissé s'est distinguée en co-réalisant le documentaire Salam, sélectionné à Cannes en 2022. Au sein de productions Netflix Original, elle a participé aux scripts de séries à succès comme Vampires et Lupin."
+            text: "Consultante créative, Scénariste et réalisatrice franco-guinéenne, Anne Cissé s'est distinguée en co-réalisant le documentaire Salam, sélectionné à Cannes en 2022. Au sein de productions Netflix Original, elle a participé aux scripts de séries à succès comme Vampires et Lupin."
         },
         {
             id: 5,
@@ -74,9 +74,9 @@
                                 à tous.
                             </p>
                             <p class="mb-6">
-                                Notre équipe internationale est composée de réalisatrices de réalisateurs et de
+                                Notre équipe internationale est composée de réalisatrices, de réalisateurs et de
                                 professionnels du milieu associatif de la gestion de projet socioculturel et
-                                événementiel. Nous travaillons également avec de nombreux bénévoles. dotés d’une bonne
+                                événementiel. Nous travaillons également avec de nombreux bénévoles. Dotés d’une bonne
                                 connaissance du projet, ils ont su nous aider dans la logistique, la mobilisation et
                                 l’animation.
                             </p>

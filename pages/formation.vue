@@ -42,21 +42,13 @@
                                     d’entreprises innovantes en Guinée dans les domaines des TIC, ICC, énergies
                                     renouvelables et environnement.
                                 </p>
-                                <div class="md:flex md:justify-between max-w-[20rem] pb-6">
-                                    <div class="flex flex-col lg:flex-wrap">
+                                <div class="md:flex max-w-[10rem] pb-6">
+                                    <div class="flex flex-col">
                                         <NuxtPicture
                                             format="avif,webp"
                                             src="/images/formation/saboutech-logo.jpg"
                                             loading="lazy"
                                             alt="saboutech"
-                                            :imgAttrs="{class: 'block h-full w-full rounded-lg'}" />
-                                    </div>
-                                    <div class="flex flex-col lg:flex-wrap">
-                                        <NuxtPicture
-                                            format="avif,webp"
-                                            src="/images/formation/sabou-cine-talents-logo.png"
-                                            loading="lazy"
-                                            alt="sabou ciné talents"
                                             :imgAttrs="{class: 'block h-full w-full rounded-lg'}" />
                                     </div>
                                 </div>
@@ -100,6 +92,16 @@
                             réaliser un court-métrage dans des conditions professionnelles. Anne Cissé, réalisatrice et
                             scénariste en France et aux Etats-Unis, est la marraine de ce programme.
                         </p>
+                        <div class="md:flex max-w-[10rem] pb-6">
+                            <div class="flex flex-col">
+                                <NuxtPicture
+                                                    format="avif,webp"
+                                                    src="/images/formation/sabou-cine-talents-logo.png"
+                                                    loading="lazy"
+                                                    alt="sabou ciné talents"
+                                                    :imgAttrs="{class: 'block h-full w-full rounded-lg'}" />
+                            </div>
+                        </div>
                         <p class="text-orange-cna font-semibold">Où aura lieu le programme Sabou Ciné’ Talents 2023 ?
                         </p>
                         <p>Sabou Ciné Talents se tiendra dans les locaux de la Saboutech à Dixinn, Conakry, Guinée.</p>
