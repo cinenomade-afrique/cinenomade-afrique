@@ -57,7 +57,7 @@
                         alt="Festival Ciné'Nomade Afrique 2023"
                         :imgAttrs="{class: 'w-full rounded-lg shadow-lg dark:shadow-black/20'}" />
                 </div>
-                <div class="text-center">
+                <div class="pt-8 md:pt-0 text-center">
                     <h2 class="mb-8 text-3xl font-semibold leading-tight">Accédez à nos formulaires d'accréditations !</h2>
                     <div class="block rounded-lg bg-white p-6 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
                         <a href="https://docs.google.com/forms/d/1xyVKxGh2vDqJ1kBVpiGT44eftneFMrASF-RpMHnC1Lc/edit?usp=drivesdk" class="mb-4 inline-block rounded-full bg-red-600 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-red-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-red-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-red-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]" target="_blank">Formulaire d'accréditation - Participants</a>
