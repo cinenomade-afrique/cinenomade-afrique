@@ -106,7 +106,7 @@
           <!--Modal body-->
           <div class="relative overflow-y-auto p-4" data-te-modal-body-ref>
             <p>{{ text }}</p>
-            <div style="height:100px;"></div>
+            <div style="height:50px;"></div>
           </div>
 
           <!--Modal footer-->

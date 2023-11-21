@@ -76,8 +76,7 @@
                             captation institutionnelle de notre action et du documentaire.
                         </li>
                         <li class="mb-3">
-                            <span class="font-bold">L'Association Malienne du Cinéma Numérique Ambulant (CNA Mali)
-                                :</span><br>
+                            <span class="font-bold">L'Association Malienne du Cinéma Numérique Ambulant (CNA Mali)&nbsp;:</span><br>
                             Partenaire logistique, le CNA Mali et son équipe expérimentée nous ont aidé dans la mise
                             en place logistique des projections à l’aide de leurs unités mobiles de projections.
                         </li>
@@ -91,7 +90,7 @@
                             Partenaire logistique.
                         </li>
                         <li class="mb-3">
-                            <span class="font-bold">Atelier de l’usine à film amateurs de Michel Gondry :</span><br>
+                            <span class="font-bold">Atelier de l’usine à film amateurs de Michel Gondry&nbsp;:</span><br>
                             L'Association de l'Usine de films amateurs est une structure imaginée par le réalisateur
                             français Michel Gondry,
                             elle promeut l'accès à la culture cinématographique via des ateliers itinérants de
@@ -106,7 +105,7 @@
                 <div class="lg:pl-5 mt-5 lg:mt-0 lg:w-2/4">
                     <ul>
                         <li class="mb-3">
-                            <span class="font-bold">Centre Culturel Franco-Guinéen / Institut Français :</span><br>
+                            <span class="font-bold">Centre Culturel Franco-Guinéen / Institut Français&nbsp;:</span><br>
                             Ils nous ont facilité l’accès à son catalogue de films que nous souhaitions projeter :
                             Akissi et le Ballon d’or.
                         </li>
@@ -131,7 +130,7 @@
                             les capacités des entrepreneurs culturels de Guinée.
                         </li>
                         <li class="mb-3">
-                            <span class="font-bold">Office National du Tourisme de Guinée (ONT) :</span><br>
+                            <span class="font-bold">Office National du Tourisme de Guinée (ONT)&nbsp;:</span><br>
                             Ils nous ont facilité dans l’aspect opérationnel et logistique en nous facilitant
                             l'obtention d’un véhicule et en mettant à notre
                             disposition ses agents.
