@@ -79,7 +79,7 @@
                             </h1>
                         </div>
                         <div class="mb-12 lg:mb-0">
-                            
+                            <Player />
                         </div>
                     </div>
                 </div>
