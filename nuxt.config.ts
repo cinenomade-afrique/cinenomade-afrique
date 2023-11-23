@@ -31,7 +31,6 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/image',
     '@formkit/nuxt',
-    'nuxt-purgecss',
     ['nuxt-mail', {
       message: {
         to: 'sgassama.autobiz@gmail.com',
