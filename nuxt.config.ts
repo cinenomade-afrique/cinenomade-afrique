@@ -33,13 +33,13 @@ export default defineNuxtConfig({
     '@formkit/nuxt',
     ['nuxt-mail', {
       message: {
-        to: 'sgassama.autobiz@gmail.com',
+        to: 'cinenomadeafrique@gmail.com',
       },
       smtp: {
         service: 'gmail',
         auth: {
-          user: 'sgassama.autobiz@gmail.com',
-          pass: 'ornk bnrh pbkt otrp',
+          user: 'cinenomadeafrique@gmail.com',
+          pass: 'vyar jshf bcrh rjrr',
         },
       },
     }],
