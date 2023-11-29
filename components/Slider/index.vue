@@ -40,10 +40,6 @@
             image: 'logo-acces-culture'
         },
         {
-            id: 3,
-            image: 'logo-afd'
-        },
-        {
             id: 4,
             image: 'logo-air-france'
         },
@@ -54,10 +50,6 @@
         {
             id: 6,
             image: 'logo-branding-guinee'
-        },
-        {
-            id: 7,
-            image: 'logo-brut'
         },
         {
             id: 8,
@@ -118,10 +110,6 @@
         {
             id: 22,
             image: 'logo-pnud'
-        },
-        {
-            id: 23,
-            image: 'logo-raj-cie'
         },
         {
             id: 24,

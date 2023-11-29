@@ -74,8 +74,8 @@
                 <div class="container mx-auto">
                     <div class="grid items-center gap-12 lg:grid-cols-2">
                         <div class="mt-12 lg:mt-0">
-                            <h1 class="mb-12 text-5xl font-semibold tracking-tight md:text-6xl xl:text-7xl">
-                                Un accès au Cinéma <br /><span class="text-green-cna">pour tous !</span>
+                            <h1 class="mb-12 text-5xl font-semibold tracking-tight md:text-6xl xl:text-7xl text-sky-800">
+                                Un accès au Cinéma <br />pour tous !
                             </h1>
                         </div>
                         <div class="mb-12 lg:mb-0">
