@@ -52,13 +52,16 @@
                         <NuxtLink class="lg:py-2.5 lg:px-5" to="/"><span>Accueil</span></NuxtLink>
                     </li>
                     <li class="lg:inline-block">
-                        <NuxtLink class="lg:py-2.5 lg:px-5" to="/association"><span>L'Association</span></NuxtLink>
-                    </li>
-                    <li class="lg:inline-block">
                         <NuxtLink class="lg:py-2.5 lg:px-5" to="/festival"><span>Le Festival</span></NuxtLink>
                     </li>
                     <li class="lg:inline-block">
+                        <NuxtLink class="lg:py-2.5 lg:px-5" to="/cinema-ambulant"><span>Le Cinéma Ambulant</span></NuxtLink>
+                    </li>
+                    <li class="lg:inline-block">
                         <NuxtLink class="lg:py-2.5 lg:px-5" to="/nos-partenaires"><span>Nos Partenaires</span></NuxtLink>
+                    </li>
+                    <li class="lg:inline-block">
+                        <NuxtLink class="lg:py-2.5 lg:px-5" to="/nous-soutenir"><span>Nous Soutenir</span></NuxtLink>
                     </li>
                     <li class="lg:inline-block">
                         <NuxtLink class="lg:py-2.5 lg:px-5" to="/contact"><span>Contact</span></NuxtLink>

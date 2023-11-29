@@ -35,8 +35,9 @@
             <div id="collapseOne" class="!visible" data-te-collapse-item data-te-collapse-show
                 aria-labelledby="headingOne" data-te-parent="#accordionExample">
                 <p class="px-5 py-4 text-sm">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic consequatu beatae saepe, aperiam rem
-                    nostrum repellat.
+                    L'association agit en faveur d'un accès à la culture pour tous en France et en Afrique et vise à
+                    favoriser l'insertion, l'épanouissement personnel et professionnel de toutes personnes à travers la
+                    culture et le cinéma.
                 </p>
             </div>
         </div>
@@ -61,10 +62,21 @@
                 data-te-parent="#accordionExample">
                 <div class="px-5 py-4">
                     <ul class="text-sm">
-                        <li class="mb-4"><NuxtLink to="/association">L'Association</NuxtLink></li>
-                        <li class="mb-4"><NuxtLink to="/festival">Le Festival</NuxtLink></li>
-                        <li class="mb-4"><NuxtLink to="/nos-partenaires">Nos Partenaires</NuxtLink></li>
-                        <li class="mb-4"><NuxtLink to="/contact">Nous Contactez</NuxtLink></li>
+                        <li class="mb-4">
+                            <NuxtLink to="/festival">Le Festival</NuxtLink>
+                        </li>
+                        <li class="mb-4">
+                            <NuxtLink to="/cinema-ambulant">Le Cinéma Ambulant</NuxtLink>
+                        </li>
+                        <li class="mb-4">
+                            <NuxtLink to="/nos-partenaires">Nos Partenaires</NuxtLink>
+                        </li>
+                        <li class="mb-4">
+                            <NuxtLink to="/nous-soutenir">Nous Soutenir</NuxtLink>
+                        </li>
+                        <li class="mb-4">
+                            <NuxtLink to="/contact">Nous Contactez</NuxtLink>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -90,8 +102,15 @@
                 data-te-parent="#accordionExample">
                 <div class="px-5 py-4">
                     <ul class="text-sm">
-                        <li class="mb-4"><NuxtLink to="/media">Médias</NuxtLink></li>
-                        <li class="mb-4"><NuxtLink to="/phototheque">Photothèque</NuxtLink></li>
+                        <li class="mb-4">
+                            <NuxtLink to="/association">L'Association</NuxtLink>
+                        </li>
+                        <li class="mb-4">
+                            <NuxtLink to="/media">Médias</NuxtLink>
+                        </li>
+                        <li class="mb-4">
+                            <NuxtLink to="/phototheque">Photothèque</NuxtLink>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -159,8 +178,9 @@
                     À propos
                 </h6>
                 <p class="text-sm">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic consequatu beatae saepe, aperiam rem
-                    nostrum repellat.
+                    L'association agit en faveur d'un accès à la culture pour tous en France et en Afrique et vise à
+                    favoriser l'insertion, l'épanouissement personnel et professionnel de toutes personnes à travers la
+                    culture et le cinéma.
                 </p>
             </div>
             <!-- Lien 1 section -->
@@ -169,10 +189,21 @@
                     Le site
                 </h6>
                 <ul class="text-sm">
-                    <li class="mb-4"><NuxtLink to="/association">L'Association</NuxtLink></li>
-                    <li class="mb-4"><NuxtLink to="/festival">Le Festival</NuxtLink></li>
-                    <li class="mb-4"><NuxtLink to="/nos-partenaires">Nos Partenaires</NuxtLink></li>
-                    <li class="mb-4"><NuxtLink to="/contact">Nous Contactez</NuxtLink></li>
+                    <li class="mb-4">
+                        <NuxtLink to="/festival">Le Festival</NuxtLink>
+                    </li>
+                    <li class="mb-4">
+                        <NuxtLink to="/cinema-ambulant">Le Cinéma Ambulant</NuxtLink>
+                    </li>
+                    <li class="mb-4">
+                        <NuxtLink to="/nos-partenaires">Nos Partenaires</NuxtLink>
+                    </li>
+                    <li class="mb-4">
+                        <NuxtLink to="/nous-soutenir">Nous Soutenir</NuxtLink>
+                    </li>
+                    <li class="mb-4">
+                        <NuxtLink to="/contact">Nous Contactez</NuxtLink>
+                    </li>
                 </ul>
             </div>
             <!-- Lien 2 section -->
@@ -181,8 +212,15 @@
                     Annexe
                 </h6>
                 <ul class="text-sm">
-                    <li class="mb-4"><NuxtLink to="/media">Médias</NuxtLink></li>
-                    <li class="mb-4"><NuxtLink to="/phototheque">Photothèque</NuxtLink></li>
+                    <li class="mb-4">
+                        <NuxtLink to="/association">L'Association</NuxtLink>
+                    </li>
+                    <li class="mb-4">
+                        <NuxtLink to="/media">Médias</NuxtLink>
+                    </li>
+                    <li class="mb-4">
+                        <NuxtLink to="/phototheque">Photothèque</NuxtLink>
+                    </li>
                 </ul>
             </div>
             <!-- Contact section -->
