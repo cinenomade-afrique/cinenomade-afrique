@@ -1,6 +1,6 @@
 <script lang="ts">
     useHead({
-        title: "Cine Nomade Afrique - Médias",
+        title: "Cine Nomade Afrique - Nos Médias",
     });
     export default {
         name: 'Fa6SolidArrowUpRightFromSquare'

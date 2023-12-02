@@ -1,6 +1,6 @@
 <script setup lang="ts">
   useHead({
-    title: "Cine Nomade Afrique - Nos actions",
+    title: "Cine Nomade Afrique - Le Festival",
   });
 </script>
 

@@ -1,6 +1,6 @@
 <script setup>
     useHead({
-        title: "Cine Nomade Afrique - Nous contactez",
+        title: "Cine Nomade Afrique - Nous Contactez",
     });
 
     const mail = useMail();
