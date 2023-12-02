@@ -14,6 +14,7 @@
         console.log("data name ==>", data.name);
         console.log("data email ==>", data.email);
         console.log("data tel ==>", data.phone);
+        console.log("data tel ==>", data.interest);
         console.log("data text ==>", data.message);
 
         mail.send({
@@ -22,7 +23,7 @@
             text: 'Bonjour !' + '\n\n' +
                 'Vous avez reçu un nouveau message depuis votre site de la part de : ' + data.name +
                 '\n\n' +
-                'Email: ' + data.email + '\n\n' + 'Tel: ' + data.phone + '\n\n' + 'Message: ' + data.message
+                'Email: ' + data.email + '\n\n' + 'Tel: ' + data.phone + 'Vous êtes intéressé par: ' + data.interest + '\n\n' + 'Message: ' + data.message
         });
 
         reset('cnaForm');
@@ -41,6 +42,17 @@
                         validation="required|matches:/^\+?[0-9]+$/"
                         :validation-messages="{matches: 'Le numéro de téléphone doit être au bon format',}"
                         validation-visibility="dirty" />
+                    <FormKit
+                        type="select"
+                        label="Vous êtes intéressé par"
+                        name="interest"
+                        prefix-icon="select"
+                        :options="[
+                            'Le Volontariat',
+                            'Le Sponsoring',
+                            'Autre',
+                        ]"
+                    />
                     <FormKit type="textarea" label="Message" rows="10" help="Votre message" name="message" prefix-icon="textarea" />
                 </FormKit>
                 <div class="mb-4 rounded-lg bg-success-100 px-6 py-5 text-base text-success-700" role="alert" v-if="submitted">

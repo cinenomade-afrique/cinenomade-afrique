@@ -145,7 +145,7 @@
                                     <path
                                         d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
                                 </svg>
-                                <a href="mailto:cinenomadeafrique@gmail.com">cinenomadeafrique@gmail.com</a>
+                                <a class="underline" href="mailto:cinenomadeafrique@gmail.com">cinenomadeafrique@gmail.com</a>
                             </p>
                         </li>
                         <li class="mb-4">
@@ -236,7 +236,7 @@
                         <path
                             d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
                     </svg>
-                    <a href="mailto:cinenomadeafrique@gmail.com">cinenomadeafrique@gmail.com</a>
+                    <a class="underline" href="mailto:cinenomadeafrique@gmail.com">cinenomadeafrique@gmail.com</a>
                 </p>
                 <p class="mb-4 flex items-center justify-center md:justify-start text-sm">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
